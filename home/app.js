@@ -6,9 +6,10 @@ const myForm = document.getElementById('my-form');
 const selectDiv = document.getElementById('selects');
 
 //create dropdowns by looping through ingredient type array and calling createDropdown function for each one
-for (const ingredientTypeObject of ingredients) {
-    selectDiv.append(createDropdown(ingredientTypeObject));
-}
+
+// for (const ingredientTypeObject of ingredients) {
+//     selectDiv.append(createDropdown(ingredientTypeObject));
+// }
 
 
 myForm.addEventListener('submit', (e) => {
@@ -34,7 +35,7 @@ myForm.addEventListener('submit', (e) => {
     };
     //set user object in localStorage to newUser 
     setUser(newUser);
-    console.log(getUser());
+    // console.log(getUser());
 });
 
 
