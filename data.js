@@ -170,43 +170,21 @@ export default [
                 }
             ]
         },
-        {'name':'Legumes',
+        { 'name':'Starch',
             'value':[
                 { 'id':'20',
-                    'name':'Chickpeas',
-                    'preparation':'Wash and sort the chickpeas to make sure there are no stones or debris. Cover the chickpeas in cold water and soak over night or for at least 12 hours. Drain and wash the chickpeas and transfer them to a pot- cover with cold water twice the amount of chickpeas and bring to a boil. Cover, lower the heat and let simmer for 60 minutes or until they are done to your liking. Drain and let cool for at least 15 minutes.',
-                    'preparation-shorthand':'boiled',
-                    'image':'./assets/chickpeas.jpg'
-                },
-                { 'id':'21',
-                    'name':'Green or Brown Lentils',
-                    'preparation':'Wash and sort the lentils to make sure there are no stones or debris. Transfer them to a pot- cover with stock or water twice the amount of the lentils and bring to a boil. Cover, lower the heat and let simmer for 25-30 minutes or until they are done to your liking. Drain and season with salt and pepper to taste.',
-                    'preparation-shorthand':'boiled',
-                    'image':'./assets/greenLentils.jpg'
-                },
-                { 'id':'22',
-                    'name':'Black Beans',
-                    'preparation':'Wash and sort the black beans to make sure there are no stones or debris. Cover the black beans in cold water and soak over night or at least 12 hours. Drain and wash the black beans and transfer them to a pot- cover with cold  water twice the amount of the black beans and bring to a boil. Cover, lower the heat and let simmer for around 2 hours stirring periodically.You may need to top off the pot with boiling water due to evaporation. Drain and season with salt and pepper to taste.',
-                    'preparation-shorthand':'boiled',
-                    'image':'./assets/blackBeans.jpg'
-                }
-            ]
-        },
-        {'name':'Starch',
-            'value':[
-                { 'id':'23',
                     'name':'White Rice',
                     'preparation':'Wash the rice three times. if you have a rice cooker (you should) put the rice in it, if not place it in a sauce pan and cover with equal parts water. Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking.',
                     'preparation-shorthand':'boiled',
                     'image':'./assets/rice.jpg'
                 },  
-                { 'id':'24',
+                { 'id':'21',
                     'name':'White Rice',
                     'preparation':'Wash the rice three times If you have a rice cooker (you should) use it, if not place the rice in a sauce pan and cover with equal parts water or stock (1:1). Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking, the rice should be tender and the all the liquid evaporated.',
                     'preparation-shorthand':'boiled',
                     'image':'./assets/rice.jpg'
                 },  
-                { 'id':'25',
+                { 'id':'22',
                     'name':'Quinoa',
                     'preparation':'Wash the quinoa well with cold water. If you have a rice cooker (you should) use it, if not place the quinoa in a sauce pan and cover with twice the amount of water or stock (2:1). Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking, if the water has evaporated remove from the heat and let sit for 5 minutes.',
                     'preparation-shorthand':'boiled',
@@ -214,8 +192,26 @@ export default [
                 },  
             ]
         },
-        {'name':'Protein',
+        { 'name':'Protein',
             'value':[
+                { 'id':'23',
+                    'name':'Chickpeas',
+                    'preparation':'Wash and sort the chickpeas to make sure there are no stones or debris. Cover the chickpeas in cold water and soak over night or for at least 12 hours. Drain and wash the chickpeas and transfer them to a pot- cover with cold water twice the amount of chickpeas and bring to a boil. Cover, lower the heat and let simmer for 60 minutes or until they are done to your liking. Drain and let cool for at least 15 minutes.',
+                    'preparation-shorthand':'boiled',
+                    'image':'./assets/chickpeas.jpg'
+                },
+                { 'id':'24',
+                    'name':'Green or Brown Lentils',
+                    'preparation':'Wash and sort the lentils to make sure there are no stones or debris. Transfer them to a pot- cover with stock or water twice the amount of the lentils and bring to a boil. Cover, lower the heat and let simmer for 25-30 minutes or until they are done to your liking. Drain and season with salt and pepper to taste.',
+                    'preparation-shorthand':'boiled',
+                    'image':'./assets/greenLentils.jpg'
+                },
+                { 'id':'25',
+                    'name':'Black Beans',
+                    'preparation':'Wash and sort the black beans to make sure there are no stones or debris. Cover the black beans in cold water and soak over night or at least 12 hours. Drain and wash the black beans and transfer them to a pot- cover with cold  water twice the amount of the black beans and bring to a boil. Cover, lower the heat and let simmer for around 2 hours stirring periodically.You may need to top off the pot with boiling water due to evaporation. Drain and season with salt and pepper to taste.',
+                    'preparation-shorthand':'boiled',
+                    'image':'./assets/blackBeans.jpg'
+                },
                 { 'id':'26',
                     'name':'Tofu',
                     'preparation':'Drain tofu and place on a plate. Cover with another plate and weight the top with a food can or other object of about 1 pound. Let stand 20 to 30 minutes to extract excess liquid. Pour off liquid and cut tofu into 3/4 -inch-thick slices. Place slices in a single layer in a shallow dish. Dress the tofu with your your favorite seasoning or marinade  and let sit for 30 minutes. Preheat the oven to 350°F. Line a large baking sheet with parchment paper. Remove tofu from the marinade and place on the baking sheet. Bake until firm and lightly browned, about 1 hour.',
@@ -230,12 +226,14 @@ export default [
                     'image':'./assets/wholeChicken.png',
                     'image2':'./assets/roastedWholeChicken.jpg'
                 },  
-                { 'id':'27',
+                { 'id':'28',
                     'name':'Beef',
                     'preparation':` Brown the beef chunks in a skillet filled with hot olive oil. Then remove from the pot and saute chopped onion in the same skillet. In a dutch oven pot, add the browned beef chunks, sauteed onion, salt, pepper, pressed garlic, and any other seasonings of your liking. Pour red wine/water into the pot, then cover with a lid and bring to a boil on your cooktop. Then place in the oven and cook for 1 and a half hours at 360 Fahrenheit.`,
                     'preparation-shorthand':'roasted',
                     'image':'./assets/wholeChicken.png',
                     'image2':'./assets/roastedWholeChicken.jpg'
                 },  
-    
-]
+            ]
+        }
+    ]
+];    
