@@ -196,17 +196,46 @@ export default [
             'value':[
                 { 'id':'23',
                     'name':'White Rice',
-                    'preparation':'Wash the rice three times. if you have a rice cooker (you should) put the rice in it, if not place it in a sauce pan and cover with equal parts water. bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking.',
+                    'preparation':'Wash the rice three times. if you have a rice cooker (you should) put the rice in it, if not place it in a sauce pan and cover with equal parts water. Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking.',
                     'preparation-shorthand':'boiled',
                     'image':'./assets/rice.jpg'
                 },  
                 { 'id':'24',
                     'name':'White Rice',
-                    'preparation':'Wash the rice three times. if you have a rice cooker (you should) put the rice in it, if not place it in a sauce pan and cover with equal parts water. bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking.',
+                    'preparation':'Wash the rice three times If you have a rice cooker (you should) use it, if not place the rice in a sauce pan and cover with equal parts water or stock (1:1). Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking, the rice should be tender and the all the liquid evaporated.',
                     'preparation-shorthand':'boiled',
                     'image':'./assets/rice.jpg'
                 },  
-                
-         }
-    ]
+                { 'id':'25',
+                    'name':'Quinoa',
+                    'preparation':'Wash the quinoa well with cold water. If you have a rice cooker (you should) use it, if not place the quinoa in a sauce pan and cover with twice the amount of water or stock (2:1). Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking, if the water has evaporated remove from the heat and let sit for 5 minutes.',
+                    'preparation-shorthand':'boiled',
+                    'image':'./assets/quinoa.jpg'
+                },  
+            ]
+        },
+        {'name':'Protein',
+            'value':[
+                { 'id':'26',
+                    'name':'Tofu',
+                    'preparation':'Drain tofu and place on a plate. Cover with another plate and weight the top with a food can or other object of about 1 pound. Let stand 20 to 30 minutes to extract excess liquid. Pour off liquid and cut tofu into 3/4 -inch-thick slices. Place slices in a single layer in a shallow dish. Dress the tofu with your your favorite seasoning or marinade  and let sit for 30 minutes. Preheat the oven to 350°F. Line a large baking sheet with parchment paper. Remove tofu from the marinade and place on the baking sheet. Bake until firm and lightly browned, about 1 hour.',
+                    'preparation-shorthand':'roasted',
+                    'image':'./assets/tofu.jpg',
+                    'image2':'./assets/roastedTofu.jpg'
+                },  
+                { 'id':'27',
+                    'name':'Chicken',
+                    'preparation':`First you want to truss the chicken: cut about a 3-foot length of heatproof butcher's twine. Lay the chicken on a clean surface with the breast facing up. Hold one end of the string in each hand, and loop the center of the string underneath the chicken's tail. Catch the ends of the legs inside the string, then cross the string over the chicken's breast, making an X. Loop the string under and around the wings, then tie the string snugly in a knot across the middle of the breast. Make sure that the ends of the wings are tucked in. Now to dry-brine the chicken: Measure 1 tablespoon kosher salt (not table salt) for every 5 pounds of chicken. You can add dry spices or lemon zest if you'd like, but it's the salt that will make the chicken juicy. Sprinkle the salt inside and outside the chicken. Cover the chicken loosely with plastic wrap and refrigerate for a few hours or up to 3 days. If you refrigerate for 3 days, uncover the chicken during the last 8 hours so the skin can air dry. This creates the crispiest skin. No need to rinse the bird, simply pat dry as needed and proceed with the recipe of your choice. Just remember the chicken drippings will be salty, so taste them before adding any more seasoning to the pan sauce or gravy. Now lets cook the bird: Preheat oven to 450°F and cook whole chicken for 10-15 minutes. Then reduce the temperature to 350°F and roast for 20 minutes per pound. Let Rest for at least 15 minutes before carving.`,
+                    'preparation-shorthand':'roasted',
+                    'image':'./assets/wholeChicken.png',
+                    'image2':'./assets/roastedWholeChicken.jpg'
+                },  
+                { 'id':'27',
+                    'name':'Beef',
+                    'preparation':` Brown the beef chunks in a skillet filled with hot olive oil. Then remove from the pot and saute chopped onion in the same skillet. In a dutch oven pot, add the browned beef chunks, sauteed onion, salt, pepper, pressed garlic, and any other seasonings of your liking. Pour red wine/water into the pot, then cover with a lid and bring to a boil on your cooktop. Then place in the oven and cook for 1 and a half hours at 360 Fahrenheit.`,
+                    'preparation-shorthand':'roasted',
+                    'image':'./assets/wholeChicken.png',
+                    'image2':'./assets/roastedWholeChicken.jpg'
+                },  
+    
 ]
