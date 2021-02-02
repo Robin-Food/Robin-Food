@@ -1,9 +1,9 @@
 // import functions/constants
 // import ingredients from 'ingredients.js';
-import { clearUser, setUser, getUser } from '../utils/local-storage-utils.js';
+import { clearUser, setUser} from '../utils/local-storage-utils.js';
 // // grab dom elements
 const myForm = document.getElementById('my-form');
-const selectDiv = document.getElementById('selects');
+// const selectDiv = document.getElementById('selects');
 
 //create dropdowns by looping through ingredient type array and calling createDropdown function for each one
 
