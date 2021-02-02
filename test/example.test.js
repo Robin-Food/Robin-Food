@@ -39,6 +39,7 @@ test('when given an ingredient type object, function should return a select tag 
     };
 
     const actual = createDropdown(protein);
+    // eslint-disable-next-line no-useless-escape
     const expected = '<select name=\"protein\"><option value=\"1\">Broccoli</option><option value=\"2\">Cauliflower</option><option value=\"3\">Brussel Sprouts</option></select>';
 
     expect.equal(actual.outerHTML, expected);
