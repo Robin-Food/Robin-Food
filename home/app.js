@@ -38,7 +38,6 @@ myForm.addEventListener('submit', (e) => {
         // Remove error after 3 seconds
         setTimeout(() => errorMsgDiv.remove(), 3000);
     } else {
-        console.log('creating user now');
         //create a new user object with input data
         const newUser = {
             name: userName,
