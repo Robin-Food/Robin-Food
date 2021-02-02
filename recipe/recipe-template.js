@@ -83,6 +83,14 @@ const recipes = [
         stepThree: `In a ${wrap}, add ingredients down the center, fold in opposite sides of the ${wrap} and roll. Place seam sides down in prepared dish. Optional: Add cheese. Make up to 6 burritos at a time for easy-reheat meals.`,
         stepFour: `Cover with foil and bake until heated through - 25-30mins. Once warmed, remove from oven and garnish with ${rawVegPrep} ${rawVeg}. Refrigerate leftovers.`
        },
+       {
+        id: 7,
+        title: `${protein} Salad`,
+        stepOne: `Start with a bed of your favorite lettuce or salad greens, washed and prepped.`,
+        stepTwo: `Layer your ${proteinPrep} ${protein}, ${heartyVegPrep} ${heartyVeg}, ${rawVegPrep} ${rawVeg} and ${grainPrep} ${grain} over your salad greens.`,
+        stepThree: `Drizzle prepared ${sauce} over your salad.`,
+        stepFour: `Garnish salad with ${choppedHerb} & a sprinkle of ${seasoningBlend}. Optional: add nuts, dried fruit and/or cheese of your choice.`
+       },
 ];
 
 for (const recipe of recipes) {
