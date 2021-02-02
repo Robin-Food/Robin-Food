@@ -1,8 +1,6 @@
-
-
-export default [
     
     { 'name':'hard-veg',
+      'placeholder': 'Choose vegetable one...',
         'value':[
             { 'id':'kjl234908fw',
                 'name':'Broccoli',
@@ -97,6 +95,7 @@ export default [
         ]
     },
     { 'name':'soft-veg',
+     'placeholder': 'Choose vegetable two...',
         'value':[
             { 'id':'178hjkdfsg879uyihjk',
                 'name':'Onion',
@@ -116,42 +115,37 @@ export default [
                 'name':'Spinach',
                 'preparation':'Wash spinach and de-stem if necessary.',
                 'preparation-shorthand':'raw',
-                'image':'./assets/spinach.jpg',
+                'image':'./assets/spinach.jpg'
             },
             { 'id':'78943jkhdfs675675',
                 'name':'Kale',
                 'preparation':'Bring a pot of salted water to a rolling boil, while waiting, prepare an ice bath. Wash kale, trim the kale stems and break down the kale into bite sized pieces. Blanch the kale for 2 minutes, then shock the kale in the ice bath for 1 minute. Remove from the ice bath and pat dry with paper towels.',
                 'preparation-shorthand':'blanched',
-                'image':'./assets/kale.png.',
-                    
+                'image':'./assets/kale.png.'     
             },
             { 'id':'1jhkewiouuiyerw231gh',
                 'name':'Bell Pepper',
                 'preparation':'Wash, slice, and de-seed bell peppers.',
                 'preparation-shorthand':'sliced',
-                'image':'./assets/bellPeppers.jpg',
-                    
+                'image':'./assets/bellPeppers.jpg'       
             },
             { 'id':'jner6767tjkn',
                 'name':'Cucumber',
                 'preparation':'Wash, and peel if desired, slice into half moons.',
                 'preparation-shorthand':'sliced',
-                'image':'./assets/cucumber.jpg',
-                    
+                'image':'./assets/cucumber.jpg'        
             },
             { 'id':'16knjefrhjewfty789u',
                 'name':'Green Beans',
                 'preparation':'Bring a pot of salted water to a rolling boil, while waiting, prepare an ice bath. Wash green beans, and trim the stems. Blanch the green beans for 2 minutes, then shock the green beans in the ice bath for 1 minute. Remove from the ice bath and pat dry with paper towels.',
                 'preparation-shorthand':'blanched',
-                'image':'./assets/greenBeans.jpg',
-                    
+                'image':'./assets/greenBeans.jpg'    
             },
             { 'id':'mndsf67dfsuifs78y',
                 'name':'Tomatoes',
                 'preparation':'Wash and de-stem tomatoes',
                 'preparation-shorthand':'raw',
-                'image':'./assets/tomatoes.jpg',
-                    
+                'image':'./assets/tomatoes.jpg'     
             },
             { 'id':'18njkjknfweioio',
                 'name':'Mushrooms',
@@ -159,18 +153,17 @@ export default [
                 'preparation-shorthand':'sauted',
                 'image':'./assets/mushrooms.jpg',
                 'image2':'assets/sautedMushrooms.jpg'
-                    
             },
             { 'id':'19jklefriurf789',
                 'name':'Lettuce',
                 'preparation':'Wash and trim lettuce',
                 'preparation-shorthand':'raw',
-                'image':'./assets/lettuce.jpg'
-                    
+                'image':'./assets/lettuce.jpg'        
             }
         ]
     },
     { 'name':'Starch',
+     'placeholder': 'Choose your starch...',
         'value':[
             { 'id':'20erklreg5623uyi',
                 'name':'White Rice',
@@ -203,6 +196,7 @@ export default [
         ]
     },
     { 'name':'Protein',
+     'placeholder': 'Choose your protein...',
         'value':[
             { 'id':'23sfdkmnsdfgy45tfybhjio',
                 'name':'Chickpeas',
@@ -259,5 +253,4 @@ export default [
             },  
         ]
     }
-    
 ];    
