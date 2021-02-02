@@ -17,7 +17,7 @@ const oil = 'olive';
 const wrap = 'tortilla';
 const choppedHerb = 'chopped basil';
 
-const excitingDescription = [
+export const excitingDescription = [
     `Rainbow`,
     `Fab`,
     `Sparkle`,
@@ -32,9 +32,7 @@ const excitingDescription = [
     `"Page Me!"`,
 ];
 
-const testDiv = document.getElementById('test-div');
-
-const recipes = [
+export const recipes = [
     {
         id: 1,
         title: `Bowl`,
@@ -92,23 +90,3 @@ const recipes = [
         stepFour: `Garnish salad with ${choppedHerb} & a sprinkle of ${seasoningBlend}. Optional: add nuts, dried fruit and/or cheese of your choice.`
     },
 ];
-
-for (const recipe of recipes) {
-    const randomItemName = excitingDescription[Math.floor(Math.random() * excitingDescription.length)];
-
-    const title = document.createElement('h2');
-    const p1 = document.createElement('p');
-    const p2 = document.createElement('p');
-    const p3 = document.createElement('p');
-    const p4 = document.createElement('p');
-
-    const i = recipe.id - 1;
-
-    title.textContent = `${randomItemName} ${recipes[i].title}`;
-    p1.textContent = recipes[i].stepOne;
-    p2.textContent = recipes[i].stepTwo;
-    p3.textContent = recipes[i].stepThree;
-    p4.textContent = recipes[i].stepFour;
-
-    testDiv.append(title, p1, p2, p3, p4);
-}
