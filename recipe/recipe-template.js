@@ -11,7 +11,7 @@ const rawVegPrep = 'chopped';
 const rawVegPrep2 = 'pickled';
 const sauce = 'peanut sauce';
 // const salsa = 'chimichurri'
-const seasoningBlend = `this week's herb/spice blend`
+const seasoningBlend = `this week's herb/spice blend`;
 const acid = 'lemon juice';
 const oil = 'olive';
 const wrap = 'tortilla';
@@ -82,27 +82,27 @@ const recipes = [
         stepTwo: `Get out your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, and ${proteinPrep} ${protein}. Mix your ${proteinPrep} ${protein} with enough ${sauce} to coat evenly.`,
         stepThree: `In a ${wrap}, add ingredients down the center, fold in opposite sides of the ${wrap} and roll. Place seam sides down in prepared dish. Optional: Add cheese. Make up to 6 burritos at a time for easy-reheat meals.`,
         stepFour: `Cover with foil and bake until heated through - 25-30mins. Once warmed, remove from oven and garnish with ${rawVegPrep} ${rawVeg}. Refrigerate leftovers.`
-       },
-       {
+    },
+    {
         id: 7,
         title: `${protein} Salad`,
         stepOne: `Start with a bed of your favorite lettuce or salad greens, washed and prepped.`,
         stepTwo: `Layer your ${proteinPrep} ${protein}, ${heartyVegPrep} ${heartyVeg}, ${rawVegPrep} ${rawVeg} and ${grainPrep} ${grain} over your salad greens.`,
         stepThree: `Drizzle prepared ${sauce} over your salad.`,
         stepFour: `Garnish salad with ${choppedHerb} & a sprinkle of ${seasoningBlend}. Optional: add nuts, dried fruit and/or cheese of your choice.`
-       },
+    },
 ];
 
 for (const recipe of recipes) {
     const randomItemName = excitingDescription[Math.floor(Math.random() * excitingDescription.length)];
 
-    const title = document.createElement('h2')
-    const p1 = document.createElement('p')
-    const p2 = document.createElement('p')
-    const p3 = document.createElement('p')
-    const p4 = document.createElement('p')
+    const title = document.createElement('h2');
+    const p1 = document.createElement('p');
+    const p2 = document.createElement('p');
+    const p3 = document.createElement('p');
+    const p4 = document.createElement('p');
 
-    const i = recipe.id - 1
+    const i = recipe.id - 1;
 
     title.textContent = `${randomItemName} ${recipes[i].title}`;
     p1.textContent = recipes[i].stepOne;
@@ -110,5 +110,5 @@ for (const recipe of recipes) {
     p3.textContent = recipes[i].stepThree;
     p4.textContent = recipes[i].stepFour;
 
-    testDiv.append(title, p1, p2, p3, p4)
+    testDiv.append(title, p1, p2, p3, p4);
 }
