@@ -1,13 +1,10 @@
 body {
   /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-  /* --primarycolor: ;
-    --secondarycolor: ;
-    --neutral: ; */
-  --neutral: rgb(253, 197, 142);
-  --ltorange: rgb(240, 177, 50);
-  --tealblue: rgb(42, 132, 137);
-  --dkgreen: rgb(37, 108, 77);
-  --almostblack: rgb(33, 46, 53);
+  --green: #0E8602;
+  --sapphire: #006E90;
+  --carrot: #F18F01;
+  --lightblue: #ADCAD6;
+  --onyx: #393E41;
 
   --headerfont: 'Potta One', cursive;
   --mainfont: 'Open Sans', sans-serif;

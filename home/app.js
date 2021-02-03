@@ -34,6 +34,7 @@ myForm.addEventListener('submit', (e) => {
     // console.log(proteinSelection, starchSelection, hardVegSelection, softVegSelection);
 
     // if any of the fields are not selected, display error message
+
     if (proteinSelection === 'null' || starchSelection === 'null' || softVegSelection === 'null' || hardVegSelection === 'null') {
         // alert('Please enter all fields');
         errorMsgDiv.classList.add('error');
