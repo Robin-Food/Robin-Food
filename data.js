@@ -105,6 +105,8 @@ export default [
                 'name': 'Onion',
                 'preparation': 'Finely slice two onions in 1/8 strips. Place onions in a medium heatproof bowl. Bring 1 cup of vinegar, 2 tablespoons of sugar, and 1 tablespoon of salt to a boil in a saucepan; pour over onions. Let cool completely. Refrigerate, covered, for at least 2 hours.',
                 'preparation-shorthand': 'pickled',
+                'temp': null,
+                'time': '2 1/2 hours',
                 'image': '../assets/redAndWhiteOnions.jpg',
                 'image2': '../assets/pickledRedOnions.jpg'
             },
@@ -113,6 +115,8 @@ export default [
                 'name': 'Celery',
                 'preparation': 'Slice the celery on a bias into 1/4 in strips.',
                 'preparation-shorthand': 'sliced',
+                'temp': null,
+                'time': null,
                 'image': '../assets/celery.jpg',
                 'image2': '../assets/slicedCelery.jpg'
             },
@@ -121,6 +125,8 @@ export default [
                 'name': 'Spinach',
                 'preparation': 'Wash spinach and de-stem if necessary.',
                 'preparation-shorthand': 'raw',
+                'temp': null,
+                'time': null,
                 'image': '../assets/spinach.jpg'
             },
             {
@@ -128,6 +134,8 @@ export default [
                 'name': 'Kale',
                 'preparation': 'Bring a pot of salted water to a rolling boil, while waiting, prepare an ice bath. Wash kale, trim the kale stems and break down the kale into bite sized pieces. Blanch the kale for 2 minutes, then shock the kale in the ice bath for 1 minute. Remove from the ice bath and pat dry with paper towels.',
                 'preparation-shorthand': 'blanched',
+                'temp': null,
+                'time': '20 min.',
                 'image': '../assets/kale.png'
             },
             {
@@ -135,6 +143,8 @@ export default [
                 'name': 'Bell Pepper',
                 'preparation': 'Wash, slice, and de-seed bell peppers.',
                 'preparation-shorthand': 'sliced',
+                'temp': null,
+                'time': null,
                 'image': '../assets/bellPeppers.jpg'
             },
             {
@@ -142,6 +152,8 @@ export default [
                 'name': 'Cucumber',
                 'preparation': 'Wash, and peel if desired, slice into half moons.',
                 'preparation-shorthand': 'sliced',
+                'temp': null,
+                'time': null,
                 'image': '../assets/cucumber.jpg'
             },
             {
@@ -149,6 +161,8 @@ export default [
                 'name': 'Green Beans',
                 'preparation': 'Bring a pot of salted water to a rolling boil, while waiting, prepare an ice bath. Wash green beans, and trim the stems. Blanch the green beans for 2 minutes, then shock the green beans in the ice bath for 1 minute. Remove from the ice bath and pat dry with paper towels.',
                 'preparation-shorthand': 'blanched',
+                'temp': null,
+                'time': '20 min.',
                 'image': '../assets/greenBeans.jpg'
             },
             {
@@ -156,6 +170,8 @@ export default [
                 'name': 'Tomatoes',
                 'preparation': 'Wash and de-stem tomatoes',
                 'preparation-shorthand': 'raw',
+                'temp': null,
+                'time': null,
                 'image': '../assets/tomatoes.jpg'
             },
             {
@@ -163,6 +179,8 @@ export default [
                 'name': 'Mushrooms',
                 'preparation': 'Slice mushrooms into 1/4 in pieces, depending on the type and size you may also need to cut them in half. Bring a large saute pan to temp over medium-high heat. Add just enough oil to coat the bottom of the pan. Saute the mushrooms for 4-5 minutes stirring occasionally, add a couple glugs of vegetable or chicken stock to the pan and cover with a lid. Reduce the heat to medium low and cook for another 4 minutes stirring occasionally, season to taste.',
                 'preparation-shorthand': 'sauted',
+                'temp': null,
+                'time': '20 min.',
                 'image': '../assets/mushrooms.jpg',
                 'image2': 'assets/sautedMushrooms.jpg'
             },
@@ -171,6 +189,8 @@ export default [
                 'name': 'Lettuce',
                 'preparation': 'Wash and trim lettuce',
                 'preparation-shorthand': 'raw',
+                'temp': null,
+                'time': null,
                 'image': '../assets/lettuce.jpg'
             }
         ]
@@ -184,6 +204,7 @@ export default [
                 'name': 'White Rice',
                 'preparation': 'Wash the rice three times. if you have a rice cooker (you should) put the rice in it, if not place it in a sauce pan and cover with equal parts water(1:1). Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking then fluff with a fork and serve.',
                 'preparation-shorthand': 'boiled',
+                'temp': null,
                 'time': '15 min.',
                 'image': '../assets/rice.jpg'
             },
@@ -192,6 +213,7 @@ export default [
                 'name': 'Brown Rice',
                 'preparation': 'Wash the rice three times. if you have a rice cooker (you should) put the rice in it, if not place it in a sauce pan and cover with 2 1/2 parts water to brown rice. Bring to a boil, stir, reduce to a low simmer and cover with a lid for 40 to 45 minutes before checking then fluff with a fork and serve.',
                 'preparation-shorthand': 'boiled',
+                'temp': null,
                 'time': '40-45 min.',
                 'image': '../assets/rice.jpg'
             },
@@ -200,6 +222,7 @@ export default [
                 'name': 'Barley',
                 'preparation': 'Wash the barley. In a medium saucepan, mix together one cup dry barley with three cups of water/stock and a hearty pinch of salt. Bring the pot to a boil, keeping an eye on it because it may become foamy at first and boil over. Then reduce to a simmer and cook, adding more water if the pan dries out, until done with a chewy but tender texture. For pearl barley this will take about 25 to 30 minutes and hulled barley 40 to 50 minutes. Drain any excess water that may be left, then fluff with a fork and serve.  ',
                 'preparation-shorthand': 'boiled',
+                'temp': null,
                 'time': '25-30 min. or 40-50 min.',
                 'image': '../assets/barley.jpg'
             },
@@ -208,6 +231,7 @@ export default [
                 'name': 'Quinoa',
                 'preparation': 'Wash the quinoa well with cold water. If you have a rice cooker (you should) use it, if not place the quinoa in a sauce pan and cover with twice the amount of water or stock (2:1). Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking, if the water has evaporated remove from the heat and let sit for 5 minutes then fluff with a fork and serve.',
                 'preparation-shorthand': 'boiled',
+                'temp': null,
                 'time': '20 min.',
                 'image': '../assets/quinoa.jpg'
             },
@@ -221,7 +245,10 @@ export default [
                 'id': '23sfdkmnsdfgy45tfybhjio',
                 'name': 'Chickpeas',
                 'preparation': 'Wash and sort the chickpeas to make sure there are no stones or debris. Cover the chickpeas in cold water and soak over night or for at least 12 hours. Drain and wash the chickpeas and transfer them to a pot- cover with cold water twice the amount of chickpeas and bring to a boil. Cover, lower the heat and let simmer for 60 minutes or until they are done to your liking. Drain and let cool for at least 15 minutes.',
+                'temp': null,
+                'time': '14 hrs.',
                 'preparation-shorthand': 'boiled',
+                
                 'image': '../assets/chickpeas.jpg'
             },
             {
@@ -229,6 +256,8 @@ export default [
                 'name': 'Green or Brown Lentils',
                 'preparation': 'Wash and sort the lentils to make sure there are no stones or debris. Transfer them to a pot- cover with stock or water twice the amount of the lentils and bring to a boil. Cover, lower the heat and let simmer for 25-30 minutes or until they are done to your liking. Drain and season with salt and pepper to taste.',
                 'preparation-shorthand': 'boiled',
+                'temp': null,
+                'time': '40 mins.',
                 'image': '../assets/greenLentils.jpg'
             },
             {
@@ -236,6 +265,8 @@ export default [
                 'name': 'Black Beans',
                 'preparation': 'Wash and sort the black beans to make sure there are no stones or debris. Cover the black beans in cold water and soak over night or at least 12 hours. Drain and wash the black beans and transfer them to a pot- cover with cold  water twice the amount of the black beans and bring to a boil. Cover, lower the heat and let simmer for around 2 hours stirring periodically.You may need to top off the pot with boiling water due to evaporation. Drain and season with salt and pepper to taste.',
                 'preparation-shorthand': 'boiled',
+                'temp': null,
+                'time': '14 hrs.',
                 'image': '../assets/blackBeans.jpg'
             },
             {
@@ -273,6 +304,7 @@ export default [
                 'name': 'Eggs',
                 'preparation': `Place eggs in a large saucepan. Cover them with cool water by 1 inch. Slowly bring water to a boil over medium heat; when the water has reached a boil, cover and remove from heat. Let sit 12 minutes. Transfer eggs to a colander; place under cool running water to stop the cooking. Eggs can be peeled and served immediately.`,
                 'preparation-shorthand': 'boiled',
+                'temp': null,
                 'time': '20 min.',
                 'image': '../assets/eggs.jpg',
                 'image2': '../assets/hardBoiledEgg.jpg'
