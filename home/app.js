@@ -34,12 +34,13 @@ myForm.addEventListener('submit', (e) => {
     // console.log(proteinSelection, starchSelection, hardVegSelection, softVegSelection);
 
     // if any of the fields are not selected, display error message
-    if (proteinSelection === null || starchSelection === null || softVegSelection === null || hardVegSelection === null) {
+    if (proteinSelection === 'null' || starchSelection === 'null' || softVegSelection === 'null' || hardVegSelection === 'null') {
         // alert('Please enter all fields');
         errorMsgDiv.classList.add('error');
         errorMsgDiv.innerHTML = 'Please enter all fields';
+        errorMsgDiv.style.display = 'block';
         // Remove error after 3 seconds
-        setTimeout(() => errorMsgDiv.remove(), 3000);
+        setTimeout(() => errorMsgDiv.style.display = 'none', 3000);
     } else {
         //create a new user object with input data
         const newUser = {
