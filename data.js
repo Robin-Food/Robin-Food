@@ -357,7 +357,7 @@ export const sauces = [
             category: 3,
             ingredients: ['Garlic', 'Olive Oil', 'Red Wine Vinegar', 'Lemon', 'Oregano', 'Dijon Mustard', 'Sugar', 'Black Pepper'],
             preparation: 'Ingredients: \n 4 medium cloves garlic, minced \n 1⁄4 cup olive oil \n 1⁄4 cup red wine vinegar \n 2 Tbsp lemon juice \n 2 Tbsp dried oregano \n 1 Tbsp dijon mustard \n 1 1⁄2 Tsp kosher salt \n 1 Tsp sugar \n 1/4 Tsp freshly ground black pepper \n Preparation: \n In a liquid measuring cup or bowl, combine all of the ingredients. Stir well with a small whisk or a fork until the ingredients are completely mixed together. Serve immediately. Cover and refrigerate the rest for future use. Keeps for 7 to 10 days. After refrigeration, remove 30 minutes prior to using, and shake to combine.'
-        }
+        },
         {
             name: 'Creamy Honey Mustard Dressing',
             id: 'honey',
