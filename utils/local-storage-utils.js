@@ -15,3 +15,7 @@ export function setUser(user) {
 export function clearUser() {
     localStorage.removeItem(USER);
 }
+
+export function findById(someArray, id) {
+    return someArray.find(item => item.id === id);
+}

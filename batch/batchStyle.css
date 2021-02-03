@@ -1,0 +1,58 @@
+div{
+    border: 1px solid black;
+}
+
+.batch-tips-div{
+    height: auto;
+    width: 80%;
+    margin: 2rem;
+    padding: 2rem; 
+}
+
+.batch-recipe-container-div {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto; 
+}
+
+.single-recipe-div {
+    height: auto;
+    min-height: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline;
+}
+
+.pre-cooked-image {
+    height: 150px;
+    width: auto;
+    float: left;
+    margin-right: 1rem;
+}
+
+.recipe-instruction-div {
+    height:auto;
+    width: auto;
+    border: none;
+    margin: 1rem;
+}
+.prep-time-span{
+    margin: 1rem;
+
+}
+
+.oven-temp-span {
+margin:1rem;
+}
+
+.ingredient-name-div {
+    border: none;
+}
+
+.temp-time-div{
+    margin: 1rem;
+    padding: auto;
+    width: auto;
+    border: none;
+}
