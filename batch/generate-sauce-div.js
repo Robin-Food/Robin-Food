@@ -1,4 +1,6 @@
-export function generateSauce(sauceCategory) {
+import { getUser, setUser } from '../utils/local-storage-utils.js';
+
+export function generateSauce(sauceCategory, iterator) {
     const randomNumber = Math.floor(Math.random() * 4);
     let randomChoice = randomNumber;
     let currentSauce = sauceCategory[randomChoice];
@@ -6,6 +8,11 @@ export function generateSauce(sauceCategory) {
     const sauceDiv = document.createElement('div');
 
     const sauceName = document.createElement('h2');
+
+    const user = getUser();
+    const userSauceIdentifier = `sauce${iterator}`;
+    user[userSauceIdentifier] = currentSauce.name;
+    setUser(user);
 
     const ingredients = document.createElement('p');
     ingredients.textContent = 'Ingredients:';
@@ -33,6 +40,11 @@ export function generateSauce(sauceCategory) {
         if (randomChoice > 3) randomChoice = 0;
         currentSauce = sauceCategory[randomChoice];
         sauceName.textContent = currentSauce.name;
+
+        const user = getUser();
+        const userSauceIdentifier = `sauce${iterator}`;
+        user[userSauceIdentifier] = currentSauce.name;
+        setUser(user);
         sauceIngredients.textContent = '';
         for (const ingredient of currentSauce.ingredients) {
             const ingredientParagraph = document.createElement('p');
