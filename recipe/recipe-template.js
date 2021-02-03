@@ -1,6 +1,6 @@
-import { getUser, findById } from "../utils/local-storage-utils.js";
+import { getUser, findById } from '../utils/local-storage-utils.js';
 
-import ingredients from '../data.js'
+import ingredients from '../data.js';
 
 const heartyVegCategory = ingredients[0].value;
 const lightVegCategory = ingredients[1].value;
@@ -8,10 +8,10 @@ const starchCategory = ingredients[2].value;
 const proteinCategory = ingredients[3].value;
 
 
-const user = getUser()
+const user = getUser();
 
 function getName(vegCategory, valueToPull) {
-    const ingredient = findById(vegCategory, user[valueToPull])
+    const ingredient = findById(vegCategory, user[valueToPull]);
     return ingredient.name;
 }
         
