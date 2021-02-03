@@ -15,7 +15,7 @@ function getName(vegCategory, valueToPull) {
 
 function getPrep(vegCategory, valueToPull) {
     const ingredient = findById(vegCategory, user[valueToPull]);
-    return ingredient['preparation-shorthand'];
+    return ingredient.prepShort;
 }
 
 const heartyVeg = getName(heartyVegCategory, 'hardVeg');
@@ -29,14 +29,18 @@ const grainPrep = 'prepared';
 const rawVeg = 'onion';
 const rawVegPrep = 'chopped';
 const rawVegPrep2 = 'pickled';
-const sauce1 = user.sauce1;
-const sauce2 = user.sauce2;
-const sauce3 = user.sauce3;
+const sauce1 = user.sauce0;
+const sauce2 = user.sauce1;
+const sauce3 = user.sauce2;
 const seasoningBlend = `this week's herb/spice blend`;
-const acid = user.acid;
-const oil = user.oil;
-const wrap = user.wrap;
-const choppedHerb = user.herb;
+const acid = 'rice wine vinegar';
+const oil = 'olive';
+const wrap = 'collard';
+const choppedHerb = 'cilantro';
+// const acid = user.acid;
+// const oil = user.oil;
+// const wrap = user.wrap;
+// const choppedHerb = user.herb;
 
 export const excitingDescription = [
     `Rainbow`,
