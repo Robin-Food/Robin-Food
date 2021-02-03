@@ -30,6 +30,7 @@ myForm.addEventListener('submit', (e) => {
     const starchSelection = formData.get('starch');
     const hardVegSelection = formData.get('hardVeg');
     const softVegSelection = formData.get('softVeg');
+    const errorMsgDiv = document.getElementById('msg');
     console.log(proteinSelection, starchSelection, hardVegSelection, softVegSelection);
     // if any of the fields are not selected, display error message
     if (proteinSelection === null || starchSelection === null || softVegSelection === null || hardVegSelection === null) {
