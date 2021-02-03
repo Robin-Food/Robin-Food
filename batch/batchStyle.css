@@ -59,3 +59,8 @@ margin:1rem;
     width: auto;
     border: none;
 }
+
+.name-el::first-letter {
+    text-transform: capitalize;
+
+}
