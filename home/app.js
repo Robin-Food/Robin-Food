@@ -52,6 +52,7 @@ myForm.addEventListener('submit', (e) => {
         // console.log(getUser());
         
     }
+    window.location = '../batch/';
 });
 
 
