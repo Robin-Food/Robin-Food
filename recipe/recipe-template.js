@@ -89,4 +89,28 @@ export const recipes = [
         stepThree: `Drizzle prepared ${sauce} over your salad.`,
         stepFour: `Garnish salad with ${choppedHerb} & a sprinkle of ${seasoningBlend}. Optional: add nuts, dried fruit and/or cheese of your choice.`
     },
+    {
+        id: 8,
+        title: `Bowl`,
+        stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a pinch of ${seasoningBlend}, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
+        stepTwo: `Reheat (optional) your prepared ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately, tossing one or more in ${sauce}.`,
+        stepThree: `Assemble your bowl by arranging each element neatly over a base of ${grainPrep} ${grain}.`,
+        stepFour: `Garnish your bowl with the ${rawVegPrep2} ${rawVeg} and ${choppedHerb}.`
+    },
+    {
+        id: 9,
+        title: `Market Plate`,
+        stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
+        stepTwo: `Reheat your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately.`,
+        stepThree: `Assemble your Market Plate by arranging each element neatly around a center of ${grainPrep} ${grain}.`,
+        stepFour: `Garnish your bowl with the ${rawVegPrep2} ${rawVeg} and ${choppedHerb}.`
+    },
+    {
+        id: 3,
+        title: `Stir Fry`,
+        stepOne: `Heat a splash of cooking oil in a skillet over medium-high until it glistens.`,
+        stepTwo: `Add your ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} together, tossing in enough ${sauce} to evenly coat ingredients.`,
+        stepThree: `Warm thoroughly, then serve with a side of reheated ${grain}.`,
+        stepFour: `Garnish with ${rawVegPrep} ${rawVeg}, ${choppedHerb} and a drizzle of ${acid}.`
+    },
 ];
