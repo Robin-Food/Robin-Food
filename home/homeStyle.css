@@ -29,6 +29,7 @@ footer {
 }
 
 .error {
+  display: none;
   background: orangered;
   color: #fff;
   padding: 5px;
