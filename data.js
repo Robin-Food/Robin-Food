@@ -287,29 +287,33 @@ export const sauces = [
             name: 'Peanut Sauce',
             id: 'peanut',
             category: 1,
-            ingredients: ['Creamy Peanut Butter', 'Tamari', ' Maple Syrup', 'Chili Garlic Sambal', 'Lime'],
-            preparation: 'Ingredients: \n 1/2 cup creamy peanut butter \n 2 Tbsp tamari \n 2 Tbsp maple syrup \n 1 tsp Sambal \n 3 Tbsp lime juice \n 1/4 cup water \n Preparation: \n Combine all ingredients besides water in a medium sized mixing bowl and whisk until incorporated. Add water until sauce is the desired consistency.'
+            shopping: ['Creamy Peanut Butter', 'Tamari', ' Maple Syrup', 'Chili Garlic Sambal', 'Lime'],
+            ingredients: ['1/2 cup creamy peanut butter', '2 Tbsp tamari', '2 Tbsp maple syrup', '1 tsp Sambal', '3 Tbsp lime juice', '1/4 cup water'],
+            preparation: 'Combine all ingredients besides water in a medium sized mixing bowl and whisk until incorporated. Add water until sauce is the desired consistency.'
         },
         {
             name: 'Coconut Sweet Chili Stir Fry Sauce',
             id: 'coconut',
             category: 1,
-            ingredients: ['Coconut Milk', 'Sweet Chuli Sauce', 'Soy Sauce', 'Lime', 'Red Pepper Flakes'],
-            preparation: 'Ingredients: \n 1/2 can of coconut milk \n 1/4 cup of sweet chili sauce \n 2 Tbsp soy sauce \n 2 Tsp lime juice \n 1/2 Tsp red pepper flakes. \n Preparation: \n Combine all ingredients in a container with a lid and shake until incorporated.'
+            shopping: ['Coconut Milk', 'Sweet Chuli Sauce', 'Soy Sauce', 'Lime', 'Red Pepper Flakes'],
+            ingredients: ['1/2 can of coconut milk', '1/4 cup of sweet chili sauce', '2 Tbsp soy sauce', '2 Tsp lime juice', '1/2 Tsp red pepper flakes'],
+            preparation: 'Combine all ingredients in a container with a lid and shake until incorporated.'
         },
         {
             name: 'Ponzu Sauce',
             id: 'ponzu',
             category: 1,
-            ingredients: ['Soy Sauce', 'Lemon', 'Lime', 'Mirin', 'Rice Vinegar', 'Bonito Flakes(optional)'],
-            preparation: 'Ingredients: \n 1/2 cup soy sauce \n 1/4 cup lemon juice \n 1/4 cup lime juice \n 2 Tbsp mirin \n 1 Tbsp rice vinegar \n 1/3 cup bonito flakes(optional) \n Preparation: \n Combine all the ingredients in a storage container, stir, cover and refrigerate. Let sit for at least 3 hours or overnight. Strain before use.'
+            shopping: ['Soy Sauce', 'Lemon', 'Lime', 'Mirin', 'Rice Vinegar', 'Bonito Flakes(optional)'],
+            ingredients: ['1/2 cup soy sauce', '1/4 cup lemon juice', '1/4 cup lime juice', '2 Tbsp mirin', '1 Tbsp rice vinegar', '1/3 cup bonito flakes(optional)'],
+            preparation: 'Combine all the ingredients in a storage container, stir, cover and refrigerate. Let sit for at least 3 hours or overnight. Strain before use.'
         },
         {
             name: 'Ssamjang',
             id: 'ssamjang',
             category: 1,
-            ingredients: ['Doenjang(fermented soybean paste)', 'Gochujang(hot pepper paste)', 'Garlic', 'Scallions', 'Sesame Oil', 'Sesame Seeds', 'Honey'],
-            preparation: 'Ingredients: \n 1/2 cup doenjang(Korean fermented soybean paste) \n 3 Tbsp gochujang(Korean hot pepper paste) \n 2 large garlic cloves \n 2 scallions \n 1 1/2 Tbsp tpasted sesame oil \n 2 Tsp sesame seeds \n 2 Tbsp honey \n Preparation: \n Place all ingredients in a large bowl and mix well.'
+            shopping: ['Doenjang(fermented soybean paste)', 'Gochujang(hot pepper paste)', 'Garlic', 'Scallions', 'Sesame Oil', 'Sesame Seeds', 'Honey'],
+            ingredients: ['1/2 cup doenjang(Korean fermented soybean paste)', '3 Tbsp gochujang(Korean hot pepper paste)', '2 large garlic cloves', '2 scallions', '1 1/2 Tbsp toasted sesame oil', '2 Tsp sesame seeds', '2 Tbsp honey'],
+            preparation: 'Place all ingredients in a large bowl and mix well.'
         }
 
     ],
@@ -318,29 +322,33 @@ export const sauces = [
             name: 'Cilantro Lime Yogurt Sauce',
             id: 'yogurt',
             category: 2,
-            ingredients: ['Greek Yogurt', 'Cilantro', 'Lime'],
-            preparation: 'Ingredients: \n 1 cup plain Greek yogurt \n 1/4 cup chopped cilantro \n 1 lime, juiced \n 1/2 Tsp salt \n Preparation: \n Stir ingredients together in a bowl until smooth. Cover with plastic wrap and refrigerate for at least 20 minutes before use.'
+            shopping: ['Greek Yogurt', 'Cilantro', 'Lime'],
+            ingredients: ['1 cup plain Greek yogurt', '1/4 cup chopped cilantro', '1 lime, juiced', '1/2 Tsp salt'],
+            preparation: 'Stir ingredients together in a bowl until smooth. Cover with plastic wrap and refrigerate for at least 20 minutes before use.'
         },
         {
             name: 'Chimichurri Sauce',
             id: 'chimichurri',
             category: 2,
-            ingredients: ['Flat Leaf Parsley', 'Garlic', 'Fresh Oregano', 'Olive Oil', 'Red Wine Vinegar', 'Black Pepper', 'Red Pepper Flakes'],
-            preparation: 'Ingredients: \n 1 firmly packed cup of flat leaf parsley leaves \n 3-4 garlic cloves \n 2 Tbsp fresh oregano leaves \n 1/3 cup virgin olive oil \n 2 Tbsp red wine vinegar \n 1/2 Tsp salt \n 1/8 Tsp ground black pepper \n 1/4 Tsp red pepper flakes \n Preparation: \n Finely chop parsley, oregano, and garlic. Place in a small bowl. Stir in olive oil, vinegar, salt, pepper and red pepper flakes. adjust seasonings to taste. Serve at room temperature.'
+            shopping: ['Flat Leaf Parsley', 'Garlic', 'Fresh Oregano', 'Olive Oil', 'Red Wine Vinegar', 'Black Pepper', 'Red Pepper Flakes'],
+            ingredients: ['1 firmly packed cup of flat leaf parsley leaves', '3-4 garlic cloves', '2 Tbsp fresh oregano leaves', '1/3 cup virgin olive oil', '2 Tbsp red wine vinegar', '1/2 Tsp salt', '1/8 Tsp ground black pepper', '1/4 Tsp red pepper flakes'],
+            preparation: 'Finely chop parsley, oregano, and garlic. Place in a small bowl. Stir in olive oil, vinegar, salt, pepper and red pepper flakes. adjust seasonings to taste. Serve at room temperature.'
         },
         {
             name: 'Vegan Chipotle Aioli',
             id: 'chipotle',
             category: 2,
-            ingredients: ['Cashews', 'Lemon', 'Maple Syrup', 'Chipotle Peppers in Adobo Sauce', 'Avocado Oil(or any other vegetable oil)', 'Smoked Paprika'],
-            preparation: 'Ingredients: \n 3/4 cup raw cashews \n 1/2 cup water \n 2 Tbsp lemon juice \n 1/4 Tsp salt \n 2 Tsp maple syrup(or sub agave, cane sugar or stevia) \n 2-3 whole chipotle peppers in adobo sauce \n 2 Tbsp avocado oil(or sub any other vegetable oil) \n 1 pinch smoked paprika \n Preparation: \n Soak cashews in boiling hot water for one hour. Drain cashews and add to a blender with water, lemon juice, salt, maple syrup and peppers. Blend on high, adding the oil and adding water until it incorporates easily. Season to taste with salt, paprika and lemon.'
+            shopping: ['Cashews', 'Lemon', 'Maple Syrup', 'Chipotle Peppers in Adobo Sauce', 'Avocado Oil(or any other vegetable oil)', 'Smoked Paprika'],
+            ingredients: ['3/4 cup raw cashews', '1/2 cup water', '2 Tbsp lemon juice', '1/4 Tsp salt', '2 Tsp maple syrup(or sub agave, cane sugar or stevia)', '2-3 whole chipotle peppers in adobo sauce', '2 Tbsp avocado oil(or sub any other vegetable oil)', '1 pinch smoked paprika'],
+            preparation: 'Soak cashews in boiling hot water for one hour. Drain cashews and add to a blender with water, lemon juice, salt, maple syrup and peppers. Blend on high, adding the oil and adding water until it incorporates easily. Season to taste with salt, paprika and lemon.'
         },
         {
             name: 'Sesame Miso Sauce',
             id: 'sesame',
             category: 2,
-            ingredients: ['Sesame Oil', 'Miso', 'Soy Sauce', 'Maple Syrup', 'Apple Cider Vinegar', 'Sesame Seeds', 'Ginger', 'Lime'],
-            preparation: 'Ingredients: \n 3 Tbsp toasted sesame oil \n 2 Tbsp miso \n 2 Tbsp water \n 1 Tbsp soy sauce \n 1 Tbsp maple syrup \n 1 Tbsp apple cider vinegar \n 1 Tbsp sesame seeds \n 1" ginger. grated \n juice of one lime \n Preparation: \n Combine all ingredients in a container with a sealed lid and shake vigorously until well combined. Refrigerate until use.'
+            shopping: ['Sesame Oil', 'Miso', 'Soy Sauce', 'Maple Syrup', 'Apple Cider Vinegar', 'Sesame Seeds', 'Ginger', 'Lime'],
+            ingredients: ['3 Tbsp toasted sesame oil', '2 Tbsp miso', '2 Tbsp water', '1 Tbsp soy sauce', '1 Tbsp maple syrup', '1 Tbsp apple cider vinegar', '1 Tbsp sesame seeds', '1" ginger. grated', 'juice of one lime'],
+            preparation: 'Combine all ingredients in a container with a sealed lid and shake vigorously until well combined. Refrigerate until use.'
         }
     ],
     [
@@ -348,29 +356,33 @@ export const sauces = [
             name: 'Balsamic Vinaigrette',
             id: 'balsamic',
             category: 3,
-            ingredients: ['Olive Oil', 'Balsamic Vinegar', 'Dijon Mustard', 'Maple Syrup', 'Garlic', 'Black Pepper'],
-            preparation: 'Ingredients: \n 1⁄2 cup extra-virgin olive oil \n 3 Tbsp balsamic vinegar \n 1 Tbsp Dijon mustard \n 1 Tbsp maple syrup \n 2 medium cloves garlic, minced \n 1⁄4 Tsp fine sea salt, to taste \n Freshly ground black pepper, to taste \n Preparation: n a liquid measuring cup or bowl, combine all of the ingredients. Stir well with a small whisk or a fork until the ingredients are completely mixed together. Serve immediately. Cover and refrigerate the rest for future use. Keeps well for 7 to 10 days. After refrigeration, remove 30 minutes prior to using, and shake to combine.'
+            shopping: ['Olive Oil', 'Balsamic Vinegar', 'Dijon Mustard', 'Maple Syrup', 'Garlic', 'Black Pepper'],
+            ingredients: ['1⁄2 cup extra-virgin olive oil', '3 Tbsp balsamic vinegar', '1 Tbsp Dijon mustard', '1 Tbsp maple syrup', '2 medium cloves garlic, minced', '1⁄4 Tsp fine sea salt, to taste', 'Freshly ground black pepper, to taste'],
+            preparation: 'In a liquid measuring cup or bowl, combine all of the ingredients. Stir well with a small whisk or a fork until the ingredients are completely mixed together. Serve immediately. Cover and refrigerate the rest for future use. Keeps well for 7 to 10 days. After refrigeration, remove 30 minutes prior to using, and shake to combine.'
         },
         {
             name: 'Italian Vinaigrette',
             id: 'italian',
             category: 3,
-            ingredients: ['Garlic', 'Olive Oil', 'Red Wine Vinegar', 'Lemon', 'Oregano', 'Dijon Mustard', 'Sugar', 'Black Pepper'],
-            preparation: 'Ingredients: \n 4 medium cloves garlic, minced \n 1⁄4 cup olive oil \n 1⁄4 cup red wine vinegar \n 2 Tbsp lemon juice \n 2 Tbsp dried oregano \n 1 Tbsp dijon mustard \n 1 1⁄2 Tsp kosher salt \n 1 Tsp sugar \n 1/4 Tsp freshly ground black pepper \n Preparation: \n In a liquid measuring cup or bowl, combine all of the ingredients. Stir well with a small whisk or a fork until the ingredients are completely mixed together. Serve immediately. Cover and refrigerate the rest for future use. Keeps for 7 to 10 days. After refrigeration, remove 30 minutes prior to using, and shake to combine.'
+            shopping: ['Garlic', 'Olive Oil', 'Red Wine Vinegar', 'Lemon', 'Oregano', 'Dijon Mustard', 'Sugar', 'Black Pepper'],
+            ingredients: ['4 medium cloves garlic, minced', '1⁄4 cup olive oil', '1⁄4 cup red wine vinegar', '2 Tbsp lemon juice', '2 Tbsp dried oregano', '1 Tbsp dijon mustard', '1 1⁄2 Tsp kosher salt', '1 Tsp sugar', '1/4 Tsp freshly ground black pepper'],
+            preparation: 'In a liquid measuring cup or bowl, combine all of the ingredients. Stir well with a small whisk or a fork until the ingredients are completely mixed together. Serve immediately. Cover and refrigerate the rest for future use. Keeps for 7 to 10 days. After refrigeration, remove 30 minutes prior to using, and shake to combine.'
         },
         {
             name: 'Creamy Honey Mustard Dressing',
             id: 'honey',
             category: 3,
-            ingredients: ['Greek Yogurt', 'Olive Oil', 'Dijon Mustard', 'Honey', 'Lemon', 'Apple Cider Vinegar', 'Garlic', 'Black Pepper'],
-            preparation: 'Ingredients: \n 1⁄2 C. plain Greek yogurt (any % fat will do) \n 1⁄4 cup extra-virgin olive oil \n 1⁄4 cup Dijon mustard \n 3 to 4 Tbsp honey, to taste \n 2 Tbsp lemon juice \n 2 Tbsp apple cider vinegar \n 1 clove garlic, minced \n 1⁄2 Tsp fine sea salt \n Freshly ground black pepper to taste \n Preparation: In a  bowl, combine all of the ingredients as listed. Whisk until blended. Taste, and season with additional pepper if necessary. This dressing is intentionally bold, but if it tastes too tart for your liking, whisk in another tablespoon of honey.Store leftover salad dressing in the refrigerator, covered, for 10 to 14 days. Shake to combine after removing from fridge.'
+            shopping: ['Greek Yogurt', 'Olive Oil', 'Dijon Mustard', 'Honey', 'Lemon', 'Apple Cider Vinegar', 'Garlic', 'Black Pepper'],
+            ingredients: ['1⁄2 cup plain Greek yogurt (any % fat will do)', '1⁄4 cup extra-virgin olive oil', '1⁄4 cup Dijon mustard', '3 to 4 Tbsp honey', '2 Tbsp lemon juice', '2 Tbsp apple cider vinegar', '1 clove garlic, minced', '1⁄2 Tsp fine sea salt', 'freshly ground black pepper to taste'],
+            preparation: 'In a  bowl, combine all of the ingredients as listed. Whisk until blended. Taste, and season with additional pepper if necessary. This dressing is intentionally bold, but if it tastes too tart for your liking, whisk in another tablespoon of honey.Store leftover salad dressing in the refrigerator, covered, for 10 to 14 days. Shake to combine after removing from fridge.'
         },
         {
             name: 'Zesty Tahini Dressing',
             id: 'tahini',
             category: 3,
-            ingredients: ['Tahini', 'Apple Cider Vinegar', 'Lemon', 'Tamari', 'Nutritional Yeast', 'Garlic'],
-            preparation: 'Ingredients: \n 1/4 cup tahini \n 1/4 cup apple cider vinegar \n 1/4 cup lemon juice \n 1/4 cup tamari or soy sauce \n 1/2 cup nutritional yeast \n 1 Tbsp minced garlic \n Preparation: \n Add all ingredients into a blender and blend until combined. Store leftover salad dressing in the refrigerator, covered, for 10 to 14 days. Shake to combine after removing from fridge.'
+            shopping: ['Tahini', 'Apple Cider Vinegar', 'Lemon', 'Tamari', 'Nutritional Yeast', 'Garlic'],
+            ingredients: ['1/4 cup tahini', '1/4 cup apple cider vinegar', '1/4 cup lemon juice', '1/4 cup tamari or soy sauce', '1/2 cup nutritional yeast', '1 Tbsp minced garlic'],
+            preparation: 'Add all ingredients into a blender and blend until combined. Store leftover salad dressing in the refrigerator, covered, for 10 to 14 days. Shake to combine after removing from fridge.'
         }
     ]
 ];

@@ -50,7 +50,7 @@ myForm.addEventListener('submit', (e) => {
         //set user object in localStorage to newUser 
         setUser(newUser);
         // console.log(getUser());
-        
+
     }
     window.location = '../batch/';
 });

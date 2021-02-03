@@ -3,7 +3,7 @@ export function createDropdown(ingredientTypeObject) {
     //create a label tag
     const selectLabel = document.createElement('label');
     selectLabel.textContent = ingredientTypeObject.name;
-    
+
     //create a select tag
     const select = document.createElement('select');
     select.classList.add('drop-down');
