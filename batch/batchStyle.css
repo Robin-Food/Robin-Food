@@ -1,6 +1,6 @@
-div{
+/* div{
     border: 1px solid black;
-}
+} */
 
 .batch-tips-div{
     height: auto;
@@ -13,15 +13,18 @@ div{
     display: flex;
     flex-wrap: wrap;
     height: auto;
-    width: auto; 
+    width: auto;
+    border: none; 
 }
 
 .single-recipe-div {
     height: auto;
-    min-height: 200px;
+    width: auto;
+    min-height: 250px;
     padding: 1rem;
     margin: 1rem;
-    display: inline;
+    border:1px solid gray;
+    
 }
 
 .pre-cooked-image {
@@ -31,7 +34,7 @@ div{
     margin-right: 1rem;
 }
 
-.recipe-instruction-div {
+.preparation-div {
     height:auto;
     width: auto;
     border: none;
@@ -55,4 +58,9 @@ margin:1rem;
     padding: auto;
     width: auto;
     border: none;
+}
+
+.name-el::first-letter {
+    text-transform: capitalize;
+
 }
