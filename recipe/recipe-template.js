@@ -1,5 +1,4 @@
 import { getUser, findById } from '../utils/local-storage-utils.js';
-
 import ingredients from '../data.js';
 
 const heartyVegCategory = ingredients[0].value;
@@ -7,33 +6,41 @@ const lightVegCategory = ingredients[1].value;
 const starchCategory = ingredients[2].value;
 const proteinCategory = ingredients[3].value;
 
-
 const user = getUser();
 
 function getName(vegCategory, valueToPull) {
     const ingredient = findById(vegCategory, user[valueToPull]);
     return ingredient.name;
 }
-        
+
+function getPrep(vegCategory, valueToPull) {
+    const ingredient = findById(vegCategory, user[valueToPull]);
+    return ingredient.prepShort;
+}
+
 const heartyVeg = getName(heartyVegCategory, 'hardVeg');
-const heartyVegPrep = 'roasted';
+const heartyVegPrep = getPrep(heartyVegCategory, 'hardVeg');
 const lightVeg = getName(lightVegCategory, 'softVeg');
-const lightVegPrep = 'blanched';
+const lightVegPrep = getPrep(lightVegCategory, 'softVeg');
 const protein = getName(proteinCategory, 'protein');
-const proteinPrep = 'broiled';
+const proteinPrep = getPrep(proteinCategory, 'protein');
 const grain = getName(starchCategory, 'starch');
 const grainPrep = 'prepared';
 const rawVeg = 'onion';
 const rawVegPrep = 'chopped';
 const rawVegPrep2 = 'pickled';
-const sauce1 = user.sauce1;
-const sauce2 = user.sauce2;
-const sauce3 = user.sauce3;
+const sauce1 = user.sauce0;
+const sauce2 = user.sauce1;
+const sauce3 = user.sauce2;
 const seasoningBlend = `this week's herb/spice blend`;
-const acid = 'lemon juice';
+const acid = 'rice wine vinegar';
 const oil = 'olive';
-const wrap = 'tortilla';
-const choppedHerb = 'chopped basil';
+const wrap = 'collard';
+const choppedHerb = 'cilantro';
+// const acid = user.acid;
+// const oil = user.oil;
+// const wrap = user.wrap;
+// const choppedHerb = user.herb;
 
 export const excitingDescription = [
     `Rainbow`,
