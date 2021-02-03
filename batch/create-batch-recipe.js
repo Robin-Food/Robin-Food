@@ -33,7 +33,7 @@ export function createBatchRecipeDiv(ingredientTypeObject) {
     //create h2 elem for ingredient name
     const nameEl = document.createElement('h2');
     nameEl.classList.add('name-el');
-    nameEl.textContent = selector.name;
+    nameEl.textContent = selector.prepShort + ` ` + selector.name;
     ingredientNameDiv.append(nameEl);
 
     //create div to contain time and temp spans
