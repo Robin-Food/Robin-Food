@@ -18,7 +18,7 @@ body {
 body {
   font-family: var(--mainfont);
   background: var(--neutral);
-  color: var(--almostblack);
+  color: var(--onyx);
   display: flex;
   align-items: center;
   justify-content: center;
