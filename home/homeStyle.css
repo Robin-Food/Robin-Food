@@ -3,7 +3,52 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: url('../assets/home-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+p {
+  text-indent: 2rem;
+  max-width: 88%;
+  margin: 15px auto;
+}
+.info-box {
+  font-size: 1rem;
+}
+h1,
+h3 {
+  color: var(--green);
+  text-align: center;
+  line-height: 2.2rem;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--sapphire);
+  -webkit-text-stroke: inset; */
 
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+h3 {
+  margin-bottom: 40px;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.user-entry {
+  border: 1px white solid;
+  width: 60%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, .6);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px grey;
+}
+.user-entry h2 {
+  font-family: var(--mainfont);
+  font-weight: 700;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -16,11 +61,17 @@ form .drop-down {
   display: inline;
   margin: 5px;
   padding: 5px;
+  background-color:rgba(255, 255, 255, .1);
+}
+input {
+  background-color:rgba(255, 255, 255, .1);
+}
+.name-input {
+  margin-bottom: 15px;
 }
 
 h2 {
   text-align: center;
-  margin-top: 10%;
 }
 
 footer {
@@ -30,8 +81,35 @@ footer {
 
 .error {
   display: none;
-  background: orangered;
+  background: var(--carrot);
   color: #fff;
   padding: 5px;
   margin: 5px;
+}
+.selects {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+button {
+  font-family: var(--mainfont);
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: white;
+  color: white;
+  background: linear-gradient(45deg ,var(--carrot), orange);
+  transition: all .1s ease-in;
+}
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 4px grey;
+  cursor: pointer;
+}
+input {
+  height: 1.5rem;
+  border-radius: 5px;
 }

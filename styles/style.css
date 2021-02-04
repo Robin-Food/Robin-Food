@@ -6,7 +6,7 @@ body {
   --lightblue: #ADCAD6;
   --onyx: #393E41;
 
-  --headerfont: 'Potta One', cursive;
+  --headerfont: 'Texturina', serif;
   --mainfont: 'Open Sans', sans-serif;
 
   --header-height: 80px;
@@ -36,9 +36,3 @@ h4 {
   cursor: pointer;
 }
 
-.main-section {
-  background-color: white;
-  width: 70%;
-  margin: 0 auto;
-  padding: 15px 45px;
-}
