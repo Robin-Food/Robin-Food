@@ -7,7 +7,12 @@ body {
 }
 
 header {
-  background-color: white;
+  background-color: #64ab20;
+  border-bottom: 1px solid var(--green);
+}
+
+.h-text {
+  color: white;
 }
 
 #welcome {
