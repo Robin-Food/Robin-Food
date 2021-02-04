@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background-color: var(--carrot);
+  background: linear-gradient(#9ed2e9, #006e90);
   background-image: url('../assets/home-background.jpg');
   background-size: cover;
   background-position: center;
