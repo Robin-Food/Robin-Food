@@ -9,6 +9,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 p {
   text-indent: 2rem;
@@ -23,7 +24,7 @@ h3 {
   color: var(--green);
   text-align: center;
   line-height: 125%;
-  text-shadow: 1px 1px 2px rgba(10, 30, 40, 0.7);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
   /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--sapphire);
   -webkit-text-stroke: inset; */
@@ -41,13 +42,13 @@ h3 {
   text-indent: 15px;
 }
 .user-entry {
-  border: 1px white solid;
+  border: 3px white solid;
   width: 60%;
   margin: 20px auto;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 20px;
-  border-radius: 15px;
-  box-shadow: 1px 1px 5px grey;
+  border-radius: 2rem .5rem 2rem .5rem;
+  box-shadow: px 1px 5px grey;
 }
 .user-entry h2 {
   font-family: var(--mainfont);
@@ -71,9 +72,11 @@ form .drop-down {
   margin: 5px;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
 }
 input {
   background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1.25rem;
 }
 .name-input {
   margin-bottom: 15px;
@@ -140,4 +143,22 @@ input[type='name'] {
 
 input[type='name']:focus {
   border: 3px solid var(--carrot);
+}
+
+ul>li {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  width: 80%;
+
+}
+
+ul>span {
+  font-size: 3rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
