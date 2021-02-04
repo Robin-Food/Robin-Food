@@ -18,11 +18,46 @@ body {
 body {
   font-family: var(--mainfont);
   background: var(--neutral);
-  color: var(--almostblack);
+  color: var(--onyx);
   display: flex;
   align-items: center;
   justify-content: center;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+header h1 {
+  font-size: 1.8rem;
+}
+header h1,
+header h3 {
+  color: var(--green);
+  line-height: 110%;
+  font-weight: 900;
+}
+header div h3 {
+  width: 100%;
+  padding: 0;
+}
+nav a{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: var(--headerfont);
+  color: var(--onyx);
+}
+nav a:visited {
+  
+}
+nav a:hover {
+  color: var(--sapphire);
+}
+
 
 h1,
 h2,

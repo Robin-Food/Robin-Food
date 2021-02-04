@@ -9,9 +9,9 @@ main {
     background-image: '../assets';
 }
 
-header {
-    height: 50px;
-    display: flex;
+header h1,
+header h3 {
+    margin:0;
 }
 .main-section {
     display: flex;
