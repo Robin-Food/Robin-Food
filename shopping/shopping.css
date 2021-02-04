@@ -1,0 +1,24 @@
+body{
+    display: block;
+    background-image: url('../assets/home-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    background-attachment: fixed;
+}
+#list-section {
+    max-width: 300px;
+    margin: 100px auto;
+    border: 1px white solid;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+#list-section h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}

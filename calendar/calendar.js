@@ -10,7 +10,7 @@ const button = document.querySelector('button');
 const welcome = document.getElementById('welcome');
 const user = getUser();
 
-welcome.textContent = `Custom RobinFood meal plan for ${user.name}!`;
+welcome.textContent = `Congratulations ${user.name}, you are now a Meal Prep Expert!`;
 
 for (const recipe of recipes) {
     const randomDescription = excitingDescription[Math.floor(Math.random() * excitingDescription.length)];

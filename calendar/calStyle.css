@@ -9,21 +9,30 @@ body {
 header {
   background-color: #64ab20;
   border-bottom: 1px solid var(--green);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 100%;  
 }
+
 
 .h-text {
   color: white;
 }
+
 
 #welcome {
   text-align: center;
   font-weight: bold;
   margin-bottom: 3rem;
   margin-top:  2rem;
-  font-size: 1.75rem;
-  font-style: italic;
+  font-size: 1.55rem;
+  /* font-style: italic; */
   max-width: 600px;
   height: 3rem;
+  color: var(--green);
 }
 
 .calendar-container, .menu-container {
@@ -88,7 +97,7 @@ button {
   border-radius: 2rem 0 0 0;
   top: -10px;
 
-}
+}   
 
 .rendered-recipe-step {
   width: 80%;
@@ -136,6 +145,12 @@ section {
   padding: 0px;
 }
 
+p {
+  margin-top: 25px;
+  font-family: var(--mainfont);
+  color: var(--onyx);
+}
+
 .step-container {
   display: flex;
   align-items: center;
@@ -168,4 +183,27 @@ section {
 
 #spacer-div {
   height: 3rem;
+}
+
+.btn {
+  background: linear-gradient(#f1c787, #f18f01);
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #f4f4f4;
+  background: linear-gradient(#9ed2e9, #006e90);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+img {
+  cursor: pointer;
 }

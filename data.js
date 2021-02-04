@@ -327,7 +327,7 @@ export const sauces = [
             name: 'Coconut Sweet Chili Stir Fry Sauce',
             id: 'coconut',
             category: 1,
-            shopping: ['Coconut Milk', 'Sweet Chuli Sauce', 'Soy Sauce', 'Lime', 'Red Pepper Flakes'],
+            shopping: ['Coconut Milk', 'Sweet Chili Sauce', 'Soy Sauce', 'Lime', 'Red Pepper Flakes'],
             ingredients: ['1/2 can of coconut milk', '1/4 cup of sweet chili sauce', '2 Tbsp soy sauce', '2 Tsp lime juice', '1/2 Tsp red pepper flakes'],
             preparation: 'Combine all ingredients in a container with a lid and shake until incorporated.'
         },
