@@ -1,30 +1,66 @@
-/* div{
-    border: 1px solid black;
-} */
-
-.batch-tips-div{
-    height: auto;
-    width: 80%;
-    margin: 2rem;
-    padding: 2rem; 
+body {
+    display: inline;
+    box-sizing: content-box;
+    color: var(--onyx)
 }
 
-.batch-recipe-container-div {
+main {
+    background-attachment: fixed;
+    background-image: '../assets';
+}
+
+header {
+    height: 50px;
+    display: flex;
+}
+.main-section {
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 0%;
+}
+
+.calendar-button-div {
+    
+    
+    
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+#calendar-button {
+    align-items: b;
+}
+#batch-recipe-container-div {
+    margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
-    height: auto;
-    width: auto;
-    border: none; 
+    height: 90%;
+    width: 50vw;; 
+    overflow: scroll;
+    scrollbar-color: none;
+    max-width: 600px;
+    border: 10px solid  var(--green) ;
+    border-radius: 50px;
+}
+
+#batch-recipe-container-div::-webkit-scrollbar {
+    display: none;
 }
 
 .single-recipe-div {
     height: auto;
-    width: auto;
+    width: 50vw;
     min-height: 250px;
     padding: 1rem;
     margin: 1rem;
-    border:1px solid gray;
-    
+    border-radius: 10px;
+    background-color: rgba(250, 240, 225, 0.424);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 .pre-cooked-image {
@@ -42,11 +78,12 @@
 }
 .prep-time-span{
     margin: 1rem;
-
+    display: flex;
 }
 
 .oven-temp-span {
 margin:1rem;
+display: flex;
 }
 
 .ingredient-name-div {
@@ -56,6 +93,7 @@ margin:1rem;
 .temp-time-div{
     margin: 1rem;
     padding: auto;
+    height: auto;
     width: auto;
     border: none;
 }
@@ -63,4 +101,46 @@ margin:1rem;
 .name-el::first-letter {
     text-transform: capitalize;
 
+}
+
+#sauce-div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 50vw;;
+    border: 10px solid  rgba(143, 189, 202, 0.438);
+    border-radius: 50px;
+    overflow: scroll;
+    max-width: 350px;
+}
+
+#sauce-div::-webkit-scrollbar {
+    display: none;
+}
+
+.single-sauce-div {
+    margin: 1rem;;
+    padding: 1rem;
+    background-color: rgba(250, 240, 225, 0.424);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.batch-tips-div{
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 350px;
+
+}
+.tools-and-tips-div {
+    text-align: left;
+    height: 90%;
+    width: 50vw; 
+    overflow: scroll;
+    margin-left: 20px;
+    
+}
+
+.tools-and-tips-div > h1, h2, h3
+{
+    margin: 1rem;
 }
