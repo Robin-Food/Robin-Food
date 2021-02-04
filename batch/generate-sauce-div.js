@@ -6,8 +6,10 @@ export function generateSauce(sauceCategory, iterator) {
     let currentSauce = sauceCategory[randomChoice];
 
     const sauceDiv = document.createElement('div');
+    sauceDiv.classList.add('single-sauce-div');
 
     const sauceName = document.createElement('h2');
+    sauceName.classList.add('sauce-name');
 
     const user = getUser();
     const userSauceIdentifier = `sauce${iterator}`;
@@ -19,9 +21,13 @@ export function generateSauce(sauceCategory, iterator) {
     ingredients.classList.add('ingredients-header');
 
     const sauceIngredients = document.createElement('div');
+    sauceIngredients.classList.add('sauce-ingredients');
+
     sauceIngredients.append(ingredients);
 
     const saucePrep = document.createElement('p');
+    saucePrep.classList.add('sauce-prep');
+    
     const changeSauce = document.createElement('button');
     changeSauce.textContent = 'Gimme a Different Sauce';
     sauceName.textContent = currentSauce.name;
