@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Potta+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./home/homeStyle.css" />
+    <title>RobinFood Homepage</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Potta+One&display=swap"
-    rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./styles/reset.css" />
-  <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="./styles/home.css" />
-  <link rel="stylesheet" href="./home/homeStyle.css" />
-  <title>RobinFood Homepage</title>
-</head>
+  <body>
+    <main>
+      <section class="main-section">
+        <div class="logo">
+          <h1>RobinFood</h1>
+          <h3 class="subtitle">Meal prep for the masses.</h3>
+        </div>
+        <div class="user-entry">
+          <h3>Why meal prep?</h3>
+          <p class="info-box">
+            Meal prepping can be an easy and fun experience. The main benefit of
+            meal-prepping is that it helps reduce food waste. Also it’s a great
+            way to utilize your veggies from a CSA or vegetable delivery box.
+            When you are busy or cooking everyday sounds like too much, meal
+            prepping will help you still eat home-cooked meals without having to
+            spend time everyday cooking, and can cut costs of frequent take-out
+            food.
+          </p>
+          <form id="my-form">
+            <label class="name-input">
+              Enter Your Name:
+              <input type="name" name="name" />
+            </label>
+            <h2>What ingredients do you have on hand?</h2>
+            <div id="msg"></div>
+            <div class="selects" id="selects"></div>
+            <button class="btn">Food Me.</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
 
-<body>
-  <main>
-    <section class="main-section">
-      <div class="logo">
-        <h1>RobinFood</h1>
-        <h3 class="subtitle">Meal prep for the masses.</h3>
-      </div>
-      <div class="user-entry">
-        <h3>Why meal prep?</h3>
-        <p class="info-box">Meal prepping can be an easy and fun experience. The main benefit of meal-prepping is that
-          it helps reduce food waste. Also it’s a great way to utilize your veggies from a CSA or vegetable delivery
-          box. When you are busy or cooking everyday sounds like too much, meal prepping will help you still eat
-          home-cooked meals without having to spend time everyday cooking, and can cut costs of frequent take-out food.
-        </p>
-        <form id="my-form">
-          <label class="name-input">
-            Enter Your Name:
-            <input type="name" name="name" />
-          </label>
-          <h2>What ingredients do you have on hand?</h2>
-          <div id="msg"></div>
-          <div class="selects" id="selects"></div>
-          <button>Food Me.</button>
-        </form>
-      </div>
-
-
-    </section>
-  </main>
-  <footer></footer>
-
-  <script type="module" src="./home/app.js"></script>
-</body>
-
+    <script type="module" src="./home/app.js"></script>
+  </body>
 </html>
