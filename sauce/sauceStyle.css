@@ -1,7 +1,8 @@
 body {
   margin-top: 0;
   background-image: url('../assets/sauce-page.jpg');
-  background-size: 300px 300px;
+  background-size: 600px 600px;
+  overflow-x: hidden;
 }
 
 .sauce-box {
@@ -67,6 +68,7 @@ header {
   margin-bottom: 5px;
   background-color: white;
   width: 100%;
+  border-bottom: 5px solid #64ab20;
 }
 
 header h1 {
