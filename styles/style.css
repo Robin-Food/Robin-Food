@@ -51,9 +51,7 @@ nav a{
   font-family: var(--headerfont);
   color: var(--onyx);
 }
-nav a:visited {
-  
-}
+
 nav a:hover {
   color: var(--sapphire);
 }
