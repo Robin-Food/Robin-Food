@@ -1,26 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+</html>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Potta+One&display=swap"
     rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,900&display=swap"
     rel="stylesheet">
-  <title>Recipes</title>
-</head>
-
-<body>
-  <h1>Sauce Recipes</h1>
-  <main>
-    <div id="sauces"></div>
-  </main>
-  <script type="module" src="./sauce.js"></script>
-</body>
-
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="./sauceStyle.css" />
+    <title>Recipes</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="gutter-right logo">
+          <a href="./calendar/">Calendar</a>
+          <a href="./sauce/">Sauce</a>
+          <a href="./batch/">Batch</a>
+        </div>
+      </header>
+      <div class="recipe-title">
+      <h1>Sauce Recipes</h1>
+    </div>
+      <section class="main-section">
+        <div id="sauces"></div>
+      </section>
+    </main>
+    <script type="module" src="./sauce.js"></script>
+  </body>
 </html>
+
