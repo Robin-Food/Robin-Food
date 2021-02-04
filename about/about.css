@@ -1,59 +1,59 @@
 body {
-    background-image: url('../assets/home-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block;
+  background-image: url('../assets/home-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  background-attachment: fixed;
 }
 .about-container {
-    width: 50%;
-    display: grid;
-    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
-    margin: 0 auto;
-    border: 1px white solid;
-    background-color: rgba(255, 255, 255, .6);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 1px 1px 5px grey;
+  width: 50%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+  margin: 0 auto;
+  border: 1px white solid;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px grey;
 }
 .bio {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 50px;
 }
 .photo-div {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .photo-div img {
-    max-width: 100px;
-    border-radius: 50%;
+  max-width: 100px;
+  border-radius: 50%;
 }
 .personal-blurb {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
 p {
-    font-size: 14px;
+  font-size: 14px;
 }
 .about-container h1 {
-    text-align: center;
-    font-size: 2rem;
+  text-align: center;
+  font-size: 2rem;
 }
 .about-container h2 {
-    font-size: 1.1rem;
-    margin-bottom: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
 }
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 h2 {
-    font-family: var(--mainfont);
+  font-family: var(--mainfont);
 }
 h3 {
-    text-align: center;
+  text-align: center;
 }
