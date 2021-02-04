@@ -60,7 +60,7 @@ export const excitingDescription = [
 export const recipes = [
     {
         id: 1,
-        title: `Bowl`,
+        title:  `Bowl`,
         stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a pinch of ${seasoningBlend}, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
         stepTwo: `Reheat (optional) your prepared ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately, tossing one or more in ${sauce1}.`,
         stepThree: `Assemble your bowl by arranging each element neatly over a base of ${grainPrep} ${grain}.`,
@@ -100,7 +100,7 @@ export const recipes = [
     },
     {
         id: 6,
-        title: `${proteinPrep} ${protein} Burrito`,
+        title: `Burrito`,
         stepOne: `Preheat oven to 350 F. Lightly oil baking dish and set aside.`,
         stepTwo: `Get out your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, and ${proteinPrep} ${protein}. Mix your ${proteinPrep} ${protein} with enough ${sauce1} to coat evenly.`,
         stepThree: `In a ${wrap}, add ingredients down the center, fold in opposite sides of the ${wrap} and roll. Place seam sides down in prepared dish. Optional: Add cheese. Make up to 6 burritos at a time for easy-reheat meals.`,
@@ -108,7 +108,7 @@ export const recipes = [
     },
     {
         id: 7,
-        title: `${protein} Salad`,
+        title: `Salad`,
         stepOne: `Start with a bed of your favorite lettuce or salad greens, washed and prepped.`,
         stepTwo: `Layer your ${proteinPrep} ${protein}, ${heartyVegPrep} ${heartyVeg}, ${rawVegPrep} ${rawVeg} and ${grainPrep} ${grain} over your salad greens.`,
         stepThree: `Drizzle prepared ${sauce2} over your salad.`,
