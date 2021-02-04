@@ -4,9 +4,6 @@ body {
 --carrot: #F18F01;
 --lightblue: #ADCAD6;
 --onyx: #393E41;
-/* background-image: url(../assets/sauce-page.jpg);
-background-size: 300px 300px;
-background-blend-mode: lighten; */
 }
 
 header {
@@ -16,7 +13,7 @@ header {
 #welcome {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   font-size: 1.75rem;
   line-height: 2.5rem;
   font-style: italic;
@@ -29,22 +26,27 @@ header {
   flex-wrap: wrap;
   align-items: center;
   width: 80%;
+  justify-content: space-around;
 }
 
+/* weekday headers */
 div>h4 {
   display: flex;
   font-size: 1.5rem;
-  background-color: var(--carrot);
-  color: white;
+  color: var(--carrot);
+  border: solid 3px var(--carrot);
+  border-radius: 1.5rem;
   height: 3rem;
   align-items: center;
   justify-content: center;
+  width: 3rem;
+  margin-bottom: 1rem;
   }
 
-div>h4, div>p {
+/* icon container div */
+div>p {
   width: 20%;
   text-align: center;
-  border: solid 2px white;
   margin: 0px;
   padding: 5px;
 }
@@ -93,14 +95,11 @@ button {
   margin-right: 10px;
 }
 
+/* close button */
 div>button {
   position: absolute;
   top: -20px;
   right: 5px;
-}
-
-h2 {
-  font-size: 2rem;
 }
 
 body {
