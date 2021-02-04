@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +14,6 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="./styles/reset.css" />
   <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="./styles/home.css" />
   <link rel="stylesheet" href="./home/homeStyle.css" />
   <title>RobinFood Homepage</title>
 </head>
@@ -25,24 +23,46 @@
     <section class="main-section">
       <div class="logo">
         <h1>RobinFood</h1>
-        <h3 class="subtitle">Meal prep for basic batches.</h3>
+        <h3 class="subtitle">Meal prep for the masses.</h3>
       </div>
       <div class="user-entry">
-        <h3>Why meal prep?</h3>
-        <p class="info-box">
-          Meal prepping can be an easy and fun experience. The main benefit of
-          meal-prepping is that it helps reduce food waste. Also it’s a great
-          way to utilize your veggies from a CSA or vegetable delivery box.
-          When you are busy or cooking everyday sounds like too much, meal
-          prepping will help you still eat home-cooked meals without having to
-          spend time everyday cooking, and can cut costs of frequent take-out
-          food.
-        </p>
+        <h3>Why Meal Prep?</h3>
+        <ul class="info-box">
+          <li>
+            <div class="emoji">🔪</div>
+            <div>
+              Prepping meals for yourself ahead of time can be easy and fun!
+            </div>
+          </li>
+          <li>
+            <div class="emoji">🍠</div>
+            <div>
+              Reduce food waste by utilizing what you have on hand
+            </div>
+          </li>
+          <li>
+            <div class="emoji">🥗</div>
+            <div>
+              Batch processing is a great way to make the most of your CSA box each week
+            </div>
+          </li>
+          <li>
+            <div class="emoji">⏲</div>
+            <div>
+              Save time by reducing each meal into a few steps using prepared ingredients
+            </div>
+          </li>
+          <li>
+            <div class="emoji">💰</div>
+            <div>
+              Save money on take-out meals by making simple and efficient meals at home!
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="user-entry">
         <form id="my-form">
-          <label class="name-input">
-            Enter Your Name:
-            <input type="name" name="name" />
-          </label>
+            <input type="name" name="name" placeholder="Enter Your Name" />
           <h2>What ingredients do you have on hand?</h2>
           <div id="msg"></div>
           <div class="selects" id="selects"></div>
