@@ -114,8 +114,8 @@ button {
 /* close button */
 div>button {
   position: absolute;
-  top: -110px;
-  right: -40px;
+  top: -90px;
+  right: -30px;
 }
 
 body {

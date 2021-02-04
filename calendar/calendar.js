@@ -6,7 +6,6 @@ import { getUser } from '../utils/local-storage-utils.js';
 const div = document.querySelector('.menu-container');
 const recipeDiv = document.querySelector('.recipe-container');
 const calendarDiv = document.querySelector('.calendar-container');
-const recipeBorder = document.querySelector('#border-div-recipe');
 const button = document.querySelector('button');
 const welcome = document.getElementById('welcome');
 const user = getUser();
