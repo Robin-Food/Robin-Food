@@ -6,11 +6,24 @@ body {
   display: block;
   background-attachment: fixed;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  width: 100%;
+  border-bottom: 5px solid #64ab20;
+}
+
 .about-container {
   width: 50%;
   display: grid;
   grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
   margin: 0 auto;
+  margin-top: 20px;
   border: 1px white solid;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 20px;
@@ -50,6 +63,9 @@ p {
 }
 .bold {
   font-weight: 700;
+}
+h1 {
+  color: var(--green);
 }
 h2 {
   font-family: var(--mainfont);
