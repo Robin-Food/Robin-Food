@@ -49,6 +49,7 @@ h3 {
   text-indent: 15px;
 }
 .user-entry {
+
   border: 3px white solid;
   width: 60%;
   margin: 20px auto;
@@ -72,7 +73,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 35px;
+  margin-top: 2%;
 }
 
 form .drop-down {
@@ -94,6 +95,9 @@ h2 {
   text-align: center;
 }
 
+.what-ingredients-h2 {
+  padding-top: 3%;
+}
 footer {
   display: flex;
   justify-content: flex-end;
