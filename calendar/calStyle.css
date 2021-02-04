@@ -33,16 +33,16 @@ header {
 /* weekday headers */
 div>h4 {
   display: flex;
-  font-size: 1.5rem;
-  color: var(--carrot);
-  border: solid 3px var(--carrot);
-  border-radius: 1.5rem;
-  height: 3rem;
+  font-size: 2rem;
+  color: white;
+  border: solid 3px white;
+  border-radius: 2rem;
+  height: 3.5rem;
   align-items: center;
   justify-content: center;
-  width: 3rem;
+  width: 3.5rem;
   margin-bottom: 1rem;
-  background-color: white;
+  background-color: var(--carrot);
   }
 
 /* icon container div */
