@@ -27,7 +27,7 @@ nav a {
 }
 
 .about-container {
-  width: 50%;
+  width: 80%;
   display: grid;
   grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
   margin: 0 auto;
@@ -48,6 +48,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
 }
 .photo-div img {
   max-width: 100px;
