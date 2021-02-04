@@ -8,14 +8,22 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-  margin-bottom: 5px;
-  background-color: white;
-  width: 100%;
-  border-bottom: 5px solid #64ab20;
+
+    padding-top: 0.5%;
+    padding-bottom: 0.8%;
+    background-color:  #64AB20;
+    width: 100%;
+    border-bottom: 1px solid var(--green);
+    z-index: 1;
+}
+header h1,
+header h3 {
+    color: white;
+    margin:0;
+    z-index: 2;
+}
+nav a {
+    color: white;
 }
 
 .about-container {

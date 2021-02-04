@@ -4,6 +4,7 @@ import { sauces } from '../data.js';
 import { generateSauce } from './generate-sauce-div.js';
 
 const calendarButton = document.getElementById('calendar-button');
+const shoppingListButton = document.getElementById('shopping-list-button');
 
 const batchRecipeDiv = document.getElementById('batch-recipe-container-div');
 const sauceDiv = document.getElementById('sauce-div');
@@ -23,4 +24,7 @@ calendarButton.addEventListener('click', () => {
     window.location = '../calendar';
 });
 
+shoppingListButton.addEventListener('click', () => {
+    window.location = '../shopping';
+});
 

@@ -65,18 +65,19 @@ header {
   align-items: center;
   padding: 5px;
   margin-bottom: 5px;
-  background-color: white;
+  background-color: #64ab20;
   width: 100%;
-  border-bottom: 5px solid #64ab20;
+  border-bottom: 1px solid var(--green);
 }
 
 header h1 {
   font-size: 1.8rem;
+  background-color: transparent;
 }
 
 header h1,
 header h3 {
-  color: var(--green);
+  color: white;
   line-height: 20%;
   font-weight: 900;
   justify-content: right;
@@ -93,7 +94,7 @@ nav a {
   font-size: 1.2rem;
   font-weight: 800;
   font-family: var(--headerfont);
-  color: var(--onyx);
+  color: white;
 }
 
 nav a:visited {

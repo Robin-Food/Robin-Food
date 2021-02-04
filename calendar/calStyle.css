@@ -7,14 +7,19 @@ body {
 }
 
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 5px;
-margin-bottom: 5px;
-background-color: white;
-width: 100%;
-border-bottom: 5px solid #64ab20;
+  background-color: #64ab20;
+  border-bottom: 1px solid var(--green);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 100%;  
+}
+
+
+.h-text {
+  color: white;
 }
 
 
