@@ -61,6 +61,7 @@ export const recipes = [
     {
         id: 1,
         title:  `Bowl`,
+        image: `bowl.png`,
         stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a pinch of ${seasoningBlend}, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
         stepTwo: `Reheat (optional) your prepared ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately, tossing one or more in ${sauce1}.`,
         stepThree: `Assemble your bowl by arranging each element neatly over a base of ${grainPrep} ${grain}.`,
@@ -69,6 +70,7 @@ export const recipes = [
     {
         id: 2,
         title: `Wrap`,
+        image: `wrap.png`,
         stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
         stepTwo: `Get out and combine small portions of your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} in a large bowl, tossing in enough ${sauce2} to evenly coat ingredients.`,
         stepThree: `Assemble your wrap by positioning the filling in the lower third of a ${wrap}, folding in the left and right sides, and rolling up tightly.`,
@@ -77,6 +79,7 @@ export const recipes = [
     {
         id: 3,
         title: `Stir Fry`,
+        image: `stir-fry.png`,
         stepOne: `Heat a splash of cooking oil in a skillet over medium-high until it glistens.`,
         stepTwo: `Add your ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} together, tossing in enough ${sauce3} to evenly coat ingredients.`,
         stepThree: `Warm thoroughly, then serve with a side of reheated ${grain}.`,
@@ -85,6 +88,7 @@ export const recipes = [
     {
         id: 4,
         title: `Soup`,
+        image: `soup.png`,
         stepOne: `Heat a splash of cooking oil in a skillet over medium-high until it glistens.`,
         stepTwo: `Add some chopped onion/garlic & sauté until onions are translucent (optional). Add a bit of ${seasoningBlend} & stir until aromatic.`,
         stepThree: `Add your ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg}, ${proteinPrep} ${protein} and ${grainPrep} ${grain}, then enough stock/water to cover.`,
@@ -93,6 +97,7 @@ export const recipes = [
     {
         id: 5,
         title: `Market Plate`,
+        image: `market-plate.png`,
         stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
         stepTwo: `Reheat your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately.`,
         stepThree: `Assemble your Market Plate by arranging each element neatly around a center of ${grainPrep} ${grain}.`,
@@ -101,6 +106,7 @@ export const recipes = [
     {
         id: 6,
         title: `Burrito`,
+        image: `burrito.png`,
         stepOne: `Preheat oven to 350 F. Lightly oil baking dish and set aside.`,
         stepTwo: `Get out your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, and ${proteinPrep} ${protein}. Mix your ${proteinPrep} ${protein} with enough ${sauce1} to coat evenly.`,
         stepThree: `In a ${wrap}, add ingredients down the center, fold in opposite sides of the ${wrap} and roll. Place seam sides down in prepared dish. Optional: Add cheese. Make up to 6 burritos at a time for easy-reheat meals.`,
@@ -109,6 +115,7 @@ export const recipes = [
     {
         id: 7,
         title: `Salad`,
+        image: `salad.png`,
         stepOne: `Start with a bed of your favorite lettuce or salad greens, washed and prepped.`,
         stepTwo: `Layer your ${proteinPrep} ${protein}, ${heartyVegPrep} ${heartyVeg}, ${rawVegPrep} ${rawVeg} and ${grainPrep} ${grain} over your salad greens.`,
         stepThree: `Drizzle prepared ${sauce2} over your salad.`,
@@ -117,6 +124,7 @@ export const recipes = [
     {
         id: 8,
         title: `Bowl`,
+        image: `bowl.png`,
         stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a pinch of ${seasoningBlend}, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
         stepTwo: `Reheat (optional) your prepared ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately, tossing one or more in ${sauce3}.`,
         stepThree: `Assemble your bowl by arranging each element neatly over a base of ${grainPrep} ${grain}.`,
@@ -125,14 +133,16 @@ export const recipes = [
     {
         id: 9,
         title: `Market Plate`,
+        image: `market-plate.png`,
         stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
         stepTwo: `Reheat your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately.`,
         stepThree: `Assemble your Market Plate by arranging each element neatly around a center of ${grainPrep} ${grain}.`,
         stepFour: `Garnish your bowl with the ${rawVegPrep2} ${rawVeg} and ${choppedHerb}.`
     },
     {
-        id: 3,
+        id: 10,
         title: `Stir Fry`,
+        image: `stir-fry.png`,
         stepOne: `Heat a splash of cooking oil in a skillet over medium-high until it glistens.`,
         stepTwo: `Add your ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} together, tossing in enough ${sauce1} to evenly coat ingredients.`,
         stepThree: `Warm thoroughly, then serve with a side of reheated ${grain}.`,
