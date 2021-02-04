@@ -28,30 +28,27 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  margin-bottom: 15px;
 }
 header h1 {
-
-  font-size: 2rem;
-
+  font-size: 1.8rem;
 }
 header h1,
 header h3 {
   color: var(--green);
-  line-height: 120%;
+  line-height: 110%;
   font-weight: 900;
 }
 header div h3 {
   width: 100%;
   padding: 0;
 }
-nav {
-
-}
 nav a{
   text-decoration: none;
   margin-right: 15px;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 800;
+  font-family: var(--headerfont);
 }
 
 h1,
