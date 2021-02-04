@@ -12,6 +12,12 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.main-section {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
 p {
   text-indent: 2rem;
   max-width: 88%;
