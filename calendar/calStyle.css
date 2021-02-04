@@ -66,10 +66,10 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
-  border: solid 3px var(--carrot);
   font-weight: bolder;
   font-size: 2rem;
   background-color: var(--carrot);
+  border: solid white 1px;
   color: white;
   margin-right: 10px;
   margin-top: 10px;
