@@ -13,11 +13,11 @@ header {
 #welcome {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  margin-top:  2rem;
   font-size: 1.75rem;
-  line-height: 2.5rem;
   font-style: italic;
-  max-width: 400px;
+  max-width: 600px;
   height: 3rem;
 }
 
@@ -33,7 +33,7 @@ header {
 /* weekday headers */
 div>h4 {
   display: flex;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   border: solid 3px white;
   border-radius: 2rem;
@@ -58,7 +58,7 @@ button {
 }
 
 .recipe-container {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   width: 80%;
@@ -114,8 +114,8 @@ button {
 /* close button */
 div>button {
   position: absolute;
-  top: -60px;
-  right: -20px;
+  top: -90px;
+  right: -30px;
 }
 
 body {
@@ -154,7 +154,6 @@ section {
 }
 
 #border-div-recipe {
-  display: none;
   height: 110%;
   left: 45px;
   top: -10px;
@@ -163,5 +162,5 @@ section {
 }
 
 #spacer-div {
-  height: 4rem;
+  height: 3rem;
 }

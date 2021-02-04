@@ -25,23 +25,31 @@ for (const recipe of recipes) {
     menuIcon.addEventListener('click', () => {
     
         const renderedRecipe = document.createElement('div');
+        const spacerDiv = document.createElement('div');
+        const borderDiv = document.createElement('div');
         const returnToWeekButton = document.createElement('button');
 
         renderedRecipe.append(renderRecipe(randomDescription, recipe));
         returnToWeekButton.textContent = '×';
+        menuIcon.src = '../assets/icons/badge.png';
+
+        spacerDiv.id = 'spacer-div';
+        borderDiv.id = 'border-div-recipe';
         
         calendarDiv.style.display = 'none';
         div.style.display = 'none';
         recipeDiv.style.display = 'flex';
+        borderDiv.style.display = 'block';
         
         returnToWeekButton.addEventListener('click', () => {
             recipeDiv.textContent = '';
             calendarDiv.style.display = 'flex';
             div.style.display = 'flex';
             recipeDiv.style.display = 'none';
+            borderDiv.style.display = 'none';
         });
 
-        recipeDiv.append(renderedRecipe, returnToWeekButton);
+        recipeDiv.append(spacerDiv, borderDiv, renderedRecipe, returnToWeekButton);
     });
 
     div.append(menuItem);
