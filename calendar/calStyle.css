@@ -27,6 +27,7 @@ header {
   align-items: center;
   width: 80%;
   justify-content: space-around;
+  position: relative;
 }
 
 /* weekday headers */
@@ -41,6 +42,7 @@ div>h4 {
   justify-content: center;
   width: 3rem;
   margin-bottom: 1rem;
+  background-color: white;
   }
 
 /* icon container div */
@@ -52,7 +54,7 @@ div>p {
 }
 
 button {
-  margin: var(--gutter);
+  margin: 3rem;
 }
 
 .recipe-container {
@@ -64,13 +66,23 @@ button {
   height: auto;
   justify-content: center;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .rendered-recipe-title {
-  width: 100%;
+  position: absolute;
+  width: 90%;
   margin-bottom: 10px;
   background-color: var(--sapphire);
   color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  height: 3.5rem;
+  left: 45px;
+  border-radius: 2rem 0 0 0;
+  top: -10px;
+
 }
 
 .rendered-recipe-step {
@@ -90,16 +102,20 @@ button {
   font-weight: bolder;
   font-size: 2rem;
   background-color: var(--carrot);
-  border: solid white 1px;
+  border: solid white 3px;
   color: white;
   margin-right: 10px;
+}
+
+.step-number {
+  background-color: var(--sapphire);
 }
 
 /* close button */
 div>button {
   position: absolute;
-  top: -20px;
-  right: 5px;
+  top: -60px;
+  right: -20px;
 }
 
 body {
@@ -117,8 +133,35 @@ section {
 
 .step-container {
   display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem'
 }
 
-p {
+.step-container p {
   padding: 0px;
+  margin-bottom: 0px;
+}
+
+#border-div, #border-div-recipe {
+  position: absolute;
+  z-index: -1;
+  border: 3px solid var(--carrot);
+  width: 100%;
+  height: 225px;
+  top: 25px;
+  border-radius: 2rem 0 2rem 0rem;
+}
+
+#border-div-recipe {
+  display: none;
+  height: 110%;
+  left: 45px;
+  top: -10px;
+  width: 90%;
+  border-color: var(--sapphire);
+}
+
+#spacer-div {
+  height: 4rem;
 }
