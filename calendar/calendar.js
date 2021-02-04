@@ -10,15 +10,19 @@ const button = document.querySelector('button');
 const welcome = document.getElementById('welcome');
 const user = getUser();
 
-welcome.textContent = `Here's your custom RobinFood meal plan for the week, ${user.name}!`;
+welcome.textContent = `Custom RobinFood meal plan for ${user.name}!`;
 
 for (const recipe of recipes) {
     const randomDescription = excitingDescription[Math.floor(Math.random() * excitingDescription.length)];
 
+    const menuIcon = document.createElement('img');
     const menuItem = document.createElement('p');
-    menuItem.textContent = `${recipe.title}`;
 
-    menuItem.addEventListener('click', () => {
+    menuIcon.src = `../assets/icons/${recipe.image}`;
+    menuIcon.alt = `${randomDescription} ${recipe.title}`;
+    menuItem.append(menuIcon);
+
+    menuIcon.addEventListener('click', () => {
     
         const renderedRecipe = document.createElement('div');
         const returnToWeekButton = document.createElement('button');

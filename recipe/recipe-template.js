@@ -114,12 +114,12 @@ export const recipes = [
     },
     {
         id: 7,
-        title: `Salad`,
-        image: `salad.png`,
-        stepOne: `Start with a bed of your favorite lettuce or salad greens, washed and prepped.`,
-        stepTwo: `Layer your ${proteinPrep} ${protein}, ${heartyVegPrep} ${heartyVeg}, ${rawVegPrep} ${rawVeg} and ${grainPrep} ${grain} over your salad greens.`,
-        stepThree: `Drizzle prepared ${sauce2} over your salad.`,
-        stepFour: `Garnish salad with ${choppedHerb} & a sprinkle of ${seasoningBlend}. Optional: add nuts, dried fruit and/or cheese of your choice.`
+        title: `Market Plate`,
+        image: `market-plate.png`,
+        stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
+        stepTwo: `Reheat your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately.`,
+        stepThree: `Assemble your Market Plate by arranging each element neatly around a center of ${grainPrep} ${grain}.`,
+        stepFour: `Garnish your bowl with the ${rawVegPrep2} ${rawVeg} and ${choppedHerb}.`
     },
     {
         id: 8,
@@ -132,12 +132,12 @@ export const recipes = [
     },
     {
         id: 9,
-        title: `Market Plate`,
-        image: `market-plate.png`,
-        stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a splash of ${acid} and a drizzle of ${oil} oil. Set aside for now.`,
-        stepTwo: `Reheat your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately.`,
-        stepThree: `Assemble your Market Plate by arranging each element neatly around a center of ${grainPrep} ${grain}.`,
-        stepFour: `Garnish your bowl with the ${rawVegPrep2} ${rawVeg} and ${choppedHerb}.`
+        title: `Salad`,
+        image: `salad.png`,
+        stepOne: `Start with a bed of your favorite lettuce or salad greens, washed and prepped.`,
+        stepTwo: `Layer your ${proteinPrep} ${protein}, ${heartyVegPrep} ${heartyVeg}, ${rawVegPrep} ${rawVeg} and ${grainPrep} ${grain} over your salad greens.`,
+        stepThree: `Drizzle prepared ${sauce2} over your salad.`,
+        stepFour: `Garnish salad with ${choppedHerb} & a sprinkle of ${seasoningBlend}. Optional: add nuts, dried fruit and/or cheese of your choice.`
     },
     {
         id: 10,

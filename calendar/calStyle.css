@@ -6,13 +6,18 @@ body {
 --onyx: #393E41;
 }
 
-h2 {
+header {
+  background-color: white;
+}
+
+#welcome {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
+  font-size: 1.75rem;
   line-height: 2.5rem;
   font-style: italic;
-  max-width: 600px;
+  max-width: 400px;
   height: 3rem;
 }
 
@@ -21,28 +26,35 @@ h2 {
   flex-wrap: wrap;
   align-items: center;
   width: 80%;
+  justify-content: space-around;
+  position: relative;
 }
 
-div>h3 {
+/* weekday headers */
+div>h4 {
   display: flex;
-  font-size: 1.5rem;
-  background-color: var(--sapphire);
+  font-size: 2rem;
   color: white;
-  height: 3rem;
+  border: solid 3px white;
+  border-radius: 2rem;
+  height: 3.5rem;
   align-items: center;
   justify-content: center;
+  width: 3.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--carrot);
   }
 
-div>h3, div>p {
+/* icon container div */
+div>p {
   width: 20%;
   text-align: center;
-  border: solid 2px white;
   margin: 0px;
   padding: 5px;
 }
 
 button {
-  margin: var(--gutter);
+  margin: 3rem;
 }
 
 .recipe-container {
@@ -54,13 +66,23 @@ button {
   height: auto;
   justify-content: center;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .rendered-recipe-title {
-  width: 100%;
+  position: absolute;
+  width: 90%;
   margin-bottom: 10px;
   background-color: var(--sapphire);
   color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  height: 3.5rem;
+  left: 45px;
+  border-radius: 2rem 0 0 0;
+  top: -10px;
+
 }
 
 .rendered-recipe-step {
@@ -80,19 +102,20 @@ button {
   font-weight: bolder;
   font-size: 2rem;
   background-color: var(--carrot);
-  border: solid white 1px;
+  border: solid white 3px;
   color: white;
   margin-right: 10px;
 }
 
-div>button {
-  position: absolute;
-  top: -20px;
-  right: 5px;
+.step-number {
+  background-color: var(--sapphire);
 }
 
-h2 {
-  font-size: 2rem;
+/* close button */
+div>button {
+  position: absolute;
+  top: -60px;
+  right: -20px;
 }
 
 body {
@@ -110,8 +133,35 @@ section {
 
 .step-container {
   display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem'
 }
 
-p {
+.step-container p {
   padding: 0px;
+  margin-bottom: 0px;
+}
+
+#border-div, #border-div-recipe {
+  position: absolute;
+  z-index: -1;
+  border: 3px solid var(--carrot);
+  width: 100%;
+  height: 225px;
+  top: 25px;
+  border-radius: 2rem 0 2rem 0rem;
+}
+
+#border-div-recipe {
+  display: none;
+  height: 110%;
+  left: 45px;
+  top: -10px;
+  width: 90%;
+  border-color: var(--sapphire);
+}
+
+#spacer-div {
+  height: 4rem;
 }
