@@ -142,7 +142,7 @@ export default [
                 'id': '1njkijh897hjkfr',
                 'name': 'Spinach',
                 'preparation': 'Wash spinach and de-stem if necessary.',
-                'prepShort': 'raw',
+                'prepShort': '',
                 'temp': null,
                 'time': null,
                 'image': '../assets/spinach.jpg'
@@ -187,7 +187,7 @@ export default [
                 'id': 'mndsf67dfsuifs78y',
                 'name': 'Tomatoes',
                 'preparation': 'Wash and de-stem tomatoes',
-                'prepShort': 'raw',
+                'prepShort': '',
                 'temp': null,
                 'time': null,
                 'image': '../assets/tomatoes.jpg'
@@ -206,7 +206,7 @@ export default [
                 'id': '19jklefriurf789',
                 'name': 'Lettuce',
                 'preparation': 'Wash and trim lettuce',
-                'prepShort': 'raw',
+                'prepShort': '',
                 'temp': null,
                 'time': null,
                 'image': '../assets/lettuce.jpg'
@@ -215,10 +215,10 @@ export default [
                 'id': 'kljk221367sdfbnvfg',
                 'name': 'Arugula',
                 'preparation': 'If its not pre-washed, give it a quick wash.',
-                'prepShort': 'raw',
+                'prepShort': '',
                 'temp': null,
                 'time': null,
-                'image': '..assets/arugula.png'
+                'image': '../assets/arugulaImg.png'
             },
         ]
     },
