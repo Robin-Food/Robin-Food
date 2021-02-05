@@ -2,7 +2,7 @@ export default [
     {
         'name': 'hardVeg',
         'placeholder': 'Choose vegetable one...',
-        'value': [
+        'value':[ 
             {
                 'id': 'kjl234908fw',
                 'name': 'Broccoli',

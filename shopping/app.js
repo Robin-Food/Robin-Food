@@ -6,7 +6,7 @@ const user = getUser();
 const ingredientsList = [];
 
 for (let i = 0; i < 3; i++) {
-    const sauceToLookFor = `sauce${i}`;
+    const sauceToLookFor = `sauce${i + 1}`;
     const thisSauce = findBySauceName(sauces[i], user[sauceToLookFor]);
     for (const ingredient of thisSauce.shopping) {
         ingredientsList.push(ingredient);
