@@ -2,23 +2,25 @@ import { findBySauceName } from '../shopping/find-by-sauce-name.js';
 import { getUser, setUser } from '../utils/local-storage-utils.js';
 
 export function generateSauce(sauceCategory, iterator) {
+    //generate a random number between 0 and 3
     const randomNumber = Math.floor(Math.random() * 4);
     let randomChoice = randomNumber;
-
+    //get user data
     const user = getUser();
+    //create a string that matches the sauce property name in user obj
     const userSauceIdentifier = `sauce${iterator}`;
 
     let currentSauce;
-
+    //if there is not a sauce currently in the category, use random choice, if there is, use choice currently in user obj
     if (!user[userSauceIdentifier]) {
         currentSauce = sauceCategory[randomChoice];
     } else {
         currentSauce = findBySauceName(sauceCategory, user[userSauceIdentifier]);
     }
-    
+    //create sauce div
     const sauceDiv = document.createElement('div');
     sauceDiv.classList.add('single-sauce-div');
-
+    //create sauce name headline
     const sauceName = document.createElement('h2');
     sauceName.classList.add('sauce-name');
 

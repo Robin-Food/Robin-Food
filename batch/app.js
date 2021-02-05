@@ -16,7 +16,7 @@ for (const ingredientType of batchData) {
 }
 
 for (let i = 0; i < 3; i++) {
-    const singleSauceDiv = generateSauce(sauces[i], i);
+    const singleSauceDiv = generateSauce(sauces[i], i + 1);
     sauceDiv.append(singleSauceDiv);
 }
 
