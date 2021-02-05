@@ -30,7 +30,7 @@ myForm.addEventListener('submit', (e) => {
     const starchSelection = formData.get('starch');
     const hardVegSelection = formData.get('hardVeg');
     const softVegSelection = formData.get('softVeg');
-   
+
     // console.log(proteinSelection, starchSelection, hardVegSelection, softVegSelection);
 
     // if any of the fields are not selected, display error message
@@ -49,9 +49,12 @@ myForm.addEventListener('submit', (e) => {
             protein: proteinSelection,
             starch: starchSelection,
             hardVeg: hardVegSelection,
-            softVeg: softVegSelection
+            softVeg: softVegSelection,
+            sauce1: '',
+            sauce2: '',
+            sauce3: ''
         };
-       
+
         //set user object in localStorage to newUser 
         setUser(newUser);
         // console.log(getUser());
