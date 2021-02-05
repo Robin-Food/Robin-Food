@@ -22,3 +22,23 @@ body{
     font-weight: 700;
     margin-bottom: 15px;
 }
+
+header {
+    padding-top: 0.5%;
+    padding-bottom: 0.8%;
+    background-color:  #64AB20;
+    width: 100%;
+    border-bottom: 1px solid var(--green);
+    z-index: 1;
+}
+
+header h1,
+header h3 {
+    color: white;
+    margin:0;
+}
+
+
+nav a {
+    color: white;
+}

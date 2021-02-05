@@ -4,12 +4,20 @@
   padding: 0;
 }
 body {
+  height: 100%;
   background: linear-gradient(#9ed2e9, #006e90);
   background-image: url('../assets/home-background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+.main-section {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
 p {
   text-indent: 2rem;
   max-width: 88%;
@@ -23,7 +31,7 @@ h3 {
   color: var(--green);
   text-align: center;
   line-height: 125%;
-  text-shadow: 1px 1px 2px rgba(10, 30, 40, 0.7);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
   /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--sapphire);
   -webkit-text-stroke: inset; */
@@ -41,14 +49,16 @@ h3 {
   text-indent: 15px;
 }
 .user-entry {
-  border: 1px white solid;
+
+  border: 3px white solid;
   width: 60%;
   margin: 20px auto;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 20px;
-  border-radius: 15px;
-  box-shadow: 1px 1px 5px grey;
+  border-radius: 2rem .5rem 2rem .5rem;
+  box-shadow: px 1px 5px grey;
 }
+
 .user-entry h2 {
   font-family: var(--mainfont);
   font-weight: 700;
@@ -63,7 +73,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 35px;
+  margin-top: 2%;
 }
 
 form .drop-down {
@@ -71,9 +81,11 @@ form .drop-down {
   margin: 5px;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
 }
 input {
   background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
 }
 .name-input {
   margin-bottom: 15px;
@@ -83,6 +95,9 @@ h2 {
   text-align: center;
 }
 
+.what-ingredients-h2 {
+  padding-top: 3%;
+}
 footer {
   display: flex;
   justify-content: flex-end;
@@ -129,16 +144,46 @@ footer {
   border-radius: 5px;
 } */
 input[type='name'] {
-  width: 100%;
+  width: 60%;
   padding: 12px 20px;
-  margin: 8px 0;
   box-sizing: border-box;
   border: 3px solid var(--onyx);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
+  text-align: center;
+
 }
 
 input[type='name']:focus {
   border: 3px solid var(--carrot);
+}
+
+ul>li {
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5rem;
+  font-size: .75rem;
+  max-width: 70%;
+
+}
+
+.emoji {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 100%;
+}
+
+section {
+  margin-bottom: 100px;
 }
