@@ -2,7 +2,7 @@ import { createBatchRecipeDiv } from './create-batch-recipe.js';
 import batchData from '../data.js';
 import { sauces } from '../data.js';
 import { generateSauce } from './generate-sauce-div.js';
-import { getUser } from '../utils/local-storage-utils.js';
+
 
 const calendarButton = document.getElementById('calendar-button');
 const shoppingListButton = document.getElementById('shopping-list-button');
