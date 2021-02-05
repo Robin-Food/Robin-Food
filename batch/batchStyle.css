@@ -291,6 +291,8 @@ display: block;
     font-size: 1.3rem;
 }
 
-.spacer-div {
-    height: 100px;
+.title-div {
+margin-top: 100px;
+background-color: darkgray;
+height: 20px;
 }
