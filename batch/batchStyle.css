@@ -91,6 +91,11 @@ button:focus {
 
 #shopping-list-button{
     font-size: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+
+    
 }
 
 #batch-recipe-container-div {
