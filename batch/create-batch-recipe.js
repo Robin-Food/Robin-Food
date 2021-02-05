@@ -54,12 +54,12 @@ export function createBatchRecipeDiv(ingredientTypeObject) {
         ovenTempSpan.textContent = `oven temp: ${selector.temp}`;
         tempTimeDiv.append(ovenTempSpan);}
     //create preparation div
+    
+    
     const preparationDiv = document.createElement('div');
     preparationDiv.classList.add('preparation-div');
     preparationDiv.textContent = selector.preparation;
     singleRecipeDiv.append(preparationDiv);
-
-    if (selector.time || selector.temp) ;
 
     return singleRecipeDiv;
     

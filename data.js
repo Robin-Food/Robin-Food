@@ -93,7 +93,25 @@ export default [
                 'time': '35-45 min.',
                 'image': '../assets/corn.jpg',
                 'image2': '../assets/roastedCorn.jpg'
-            }
+            },
+            {
+                'id': 'klj453bnyusddsiu89',
+                'name': 'Butternut Squash',
+                'preparation': 'Preheat oven to 425°F. Peel the squash, cut it in half, and scoop out all the seeds, then slice it into bit sized pieces and toss with oil and salt to taste. Place the cut squash on a oiled or aluminum foil lined baking sheet in a single layer, make sure not to overcrowd! the squash is done when it can easily be pierced by a fork. ',
+                'prepShort': 'roasted',
+                'temp': '425°F',
+                'time': '40-50 min.',
+                'image': '../assets/butternutSquash.jpg',
+            },
+            {
+                'id': 'kjhgjds675iouerojmnbvcxz',
+                'name': 'Eggplant',
+                'preparation': 'Preheat oven to 400°F. Pierce the skin in several places. Roast on a baking sheet until soft, 35 to 45 minutes. Remove from oven, and let cool. Slice eggplants open, and scoop out the flesh',
+                'prepShort': 'roasted',
+                'temp': '400°F',
+                'time': '35-45 min.',
+                'image': '../assets/eggplant.jpg',
+            },
         ]
     },
     {
@@ -192,7 +210,16 @@ export default [
                 'temp': null,
                 'time': null,
                 'image': '../assets/lettuce.jpg'
-            }
+            },
+            {
+                'id': 'kljk221367sdfbnvfg',
+                'name': 'Arugula',
+                'preparation': 'If its not pre-washed, give it a quick wash.',
+                'prepShort': 'raw',
+                'temp': null,
+                'time': null,
+                'image': '..assets/arugula.png'
+            },
         ]
     },
     {
@@ -203,7 +230,7 @@ export default [
                 'id': '20erklreg5623uyi',
                 'name': 'White Rice',
                 'preparation': 'Wash the rice three times. if you have a rice cooker (you should) put the rice in it, if not place it in a sauce pan and cover with equal parts water(1:1). Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking then fluff with a fork and serve.',
-                'prepShort': 'boiled',
+                'prepShort': '',
                 'temp': null,
                 'time': '15 min.',
                 'image': '../assets/rice.jpg'
@@ -212,16 +239,16 @@ export default [
                 'id': 'hiow890edg',
                 'name': 'Brown Rice',
                 'preparation': 'Wash the rice three times. if you have a rice cooker (you should) put the rice in it, if not place it in a sauce pan and cover with 2 1/2 parts water to brown rice. Bring to a boil, stir, reduce to a low simmer and cover with a lid for 40 to 45 minutes before checking then fluff with a fork and serve.',
-                'prepShort': 'boiled',
+                'prepShort': '',
                 'temp': null,
                 'time': '40-45 min.',
-                'image': '../assets/rice.jpg'
+                'image': '../assets/brownRice.jpg'
             },
             {
                 'id': '21lkfiodfsy78hj',
                 'name': 'Barley',
                 'preparation': 'Wash the barley. In a medium saucepan, mix together one cup dry barley with three cups of water/stock and a hearty pinch of salt. Bring the pot to a boil, keeping an eye on it because it may become foamy at first and boil over. Then reduce to a simmer and cook, adding more water if the pan dries out, until done with a chewy but tender texture. For pearl barley this will take about 25 to 30 minutes and hulled barley 40 to 50 minutes. Drain any excess water that may be left, then fluff with a fork and serve.  ',
-                'prepShort': 'boiled',
+                'prepShort': '',
                 'temp': null,
                 'time': '25-30 min. or 40-50 min.',
                 'image': '../assets/barley.jpg'
@@ -230,11 +257,29 @@ export default [
                 'id': '22fdjklsdfuyg43',
                 'name': 'Quinoa',
                 'preparation': 'Wash the quinoa well with cold water. If you have a rice cooker (you should) use it, if not place the quinoa in a sauce pan and cover with twice the amount of water or stock (2:1). Bring to a boil, stir, reduce to a low simmer and cover with a lid for 15 minutes before checking, if the water has evaporated remove from the heat and let sit for 5 minutes then fluff with a fork and serve.',
-                'prepShort': 'boiled',
+                'prepShort': '',
                 'temp': null,
                 'time': '20 min.',
                 'image': '../assets/quinoa.jpg'
             },
+            {
+                'id': 'lkjhgfdsawerty9876543cvb',
+                'name': 'Freekeh',
+                'preparation': 'For every cup of freekeh bring 2 1/2 cups water to a boil. Add freekeh and 1/2 teaspoon salt. Reduce heat to medium-low and simmer, covered, until freekeh is tender and liquid is absorbed, about 20 minutes.Remove from heat and let stand, covered, 5 minutes. Use immediately or spread on a rimmed baking sheet and let cool.',
+                'prepShort': '',
+                'temp': null,
+                'time': '25 min.',
+                'image': '../assets/freekeh.jpg'
+            },
+            {
+                'id': 'qwertyu9876543xcvbnjhgfla1',
+                'name': 'Wheat Berries',
+                'preparation': 'Place wheat berries in a small stockpot over high heat. Add water. Cover; bring to a boil. Reduce heat to low. Simmer until tender, at least 40 minutes. Drain.',
+                'prepShort': '',
+                'temp': null,
+                'time': '40-60 min.',
+                'image': '../assets/wheatBerries.jpg'
+            }
         ]
     },
     {
@@ -247,24 +292,32 @@ export default [
                 'preparation': 'Wash and sort the chickpeas to make sure there are no stones or debris. Cover the chickpeas in cold water and soak over night or for at least 12 hours. Drain and wash the chickpeas and transfer them to a pot- cover with cold water twice the amount of chickpeas and bring to a boil. Cover, lower the heat and let simmer for 60 minutes or until they are done to your liking. Drain and let cool for at least 15 minutes.',
                 'temp': null,
                 'time': '14 hrs.',
-                'prepShort': 'boiled',
-                
+                'prepShort': '',
                 'image': '../assets/chickpeas.jpg'
             },
             {
                 'id': '2jkfrhdfs6778yhj4',
                 'name': 'Green or Brown Lentils',
                 'preparation': 'Wash and sort the lentils to make sure there are no stones or debris. Transfer them to a pot- cover with stock or water twice the amount of the lentils and bring to a boil. Cover, lower the heat and let simmer for 25-30 minutes or until they are done to your liking. Drain and season with salt and pepper to taste.',
-                'prepShort': 'boiled',
+                'prepShort': '',
                 'temp': null,
                 'time': '40 mins.',
                 'image': '../assets/greenLentils.jpg'
             },
             {
+                'id': '098765432zxcvbnmghtyr',
+                'name': 'Red and Orange Lentils',
+                'preparation': 'Wash and sort the lentils to make sure there are no stones or debris. Transfer them to a pot- cover with stock or water twice the amount of the lentils and bring to a boil. Cover, lower the heat and let simmer for 20 minutes or until they are done to your liking. Drain and season with salt and pepper to taste.',
+                'prepShort': '',
+                'temp': null,
+                'time': '20 min.',
+                'image': '../assets/redLentils.jpg'
+            },
+            {
                 'id': '2dfjioefr8y7jkio5',
                 'name': 'Black Beans',
                 'preparation': 'Wash and sort the black beans to make sure there are no stones or debris. Cover the black beans in cold water and soak over night or at least 12 hours. Drain and wash the black beans and transfer them to a pot- cover with cold  water twice the amount of the black beans and bring to a boil. Cover, lower the heat and let simmer for around 2 hours stirring periodically.You may need to top off the pot with boiling water due to evaporation. Drain and season with salt and pepper to taste.',
-                'prepShort': 'boiled',
+                'prepShort': '',
                 'temp': null,
                 'time': '14 hrs.',
                 'image': '../assets/blackBeans.jpg'
@@ -303,12 +356,22 @@ export default [
                 'id': '2mnkdf2334890hj9',
                 'name': 'Eggs',
                 'preparation': `Place eggs in a large saucepan. Cover them with cool water by 1 inch. Slowly bring water to a boil over medium heat; when the water has reached a boil, cover and remove from heat. Let sit 12 minutes. Transfer eggs to a colander; place under cool running water to stop the cooking. Eggs can be peeled and served immediately.`,
-                'prepShort': 'boiled',
+                'prepShort': 'hard boiled',
                 'temp': null,
                 'time': '20 min.',
                 'image': '../assets/eggs.jpg',
                 'image2': '../assets/hardBoiledEgg.jpg'
             },
+            {
+                'id': '78392hiouqpmzt67',
+                'name': 'Salmon',
+                'preparation': `Let salmon come to room temperature, about 20-30 min. Preheat oven to 450°F. Blot the salmon dry on all sides and season with salt. Then place skin side down on an oiled oven proof skillet or an aluminum foil lined baking sheet and bake salmon for 10-15 min depending on the size or till it reaches an internal temp of 140°F or the salmon flakes easily when pierced with a fork. Squeeze with with lemon and enjoy!`,
+                'prepShort': 'Roasted',
+                'temp': '450°F',
+                'time': '35-45 min.',
+                'image': '../assets/salmon.jpg',
+                
+            }
         ]
     }
 ];
