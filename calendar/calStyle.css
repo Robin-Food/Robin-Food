@@ -26,16 +26,23 @@ header {
 #welcome {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   margin-top:  2rem;
   font-size: 1.55rem;
   /* font-style: italic; */
-  max-width: 600px;
+  max-width: 900px;
   height: 3rem;
   color: var(--green);
 }
 
-.calendar-container, .menu-container {
+#icon-msg {
+text-align: center;
+margin-top: 45px;
+
+}
+
+.calendar-container, 
+.menu-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -69,6 +76,7 @@ div>p {
 
 button {
   margin: 3rem;
+  
 }
 
 .recipe-container {
@@ -125,16 +133,22 @@ button {
   background-color: var(--sapphire);
 }
 
+.calendar-container {
+  margin-top: 10px;
+}
+
 /* close button */
-div>button {
+#x-btn {
   position: absolute;
   top: -90px;
   right: -30px;
+  cursor: pointer;
 }
 
 body {
   display: inline;
 }
+
 
 section {
   display: flex;
@@ -146,7 +160,7 @@ section {
 }
 
 p {
-  margin-top: 25px;
+  margin-top: 5px 25px;
   font-family: var(--mainfont);
   color: var(--onyx);
 }
@@ -185,7 +199,7 @@ p {
   height: 3rem;
 }
 
-.btn {
+#btn-new {
   background: linear-gradient(#f1c787, #f18f01);
   color: #ffffff;
   border: none;
@@ -193,15 +207,20 @@ p {
   padding: 10px 20px;
   border-radius: 6px;
   cursor: pointer;
+ 
 }
 
-.btn:hover {
+#btn-new:hover {
   color: #f4f4f4;
   background: linear-gradient(#9ed2e9, #006e90);
 }
 
-.btn:focus {
+#btn-new:focus {
   outline: 0;
+}
+
+#icon-message {
+  margin-top: 40px;
 }
 
 img {
