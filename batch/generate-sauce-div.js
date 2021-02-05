@@ -1,18 +1,29 @@
+import { findBySauceName } from '../shopping/find-by-sauce-name.js';
 import { getUser, setUser } from '../utils/local-storage-utils.js';
 
 export function generateSauce(sauceCategory, iterator) {
     const randomNumber = Math.floor(Math.random() * 4);
     let randomChoice = randomNumber;
-    let currentSauce = sauceCategory[randomChoice];
 
+    const user = getUser();
+    const userSauceIdentifier = `sauce${iterator}`;
+
+    let currentSauce;
+
+    if (!user[userSauceIdentifier]) {
+        currentSauce = sauceCategory[randomChoice];
+    } else {
+        currentSauce = findBySauceName(sauceCategory, user[userSauceIdentifier]);
+    }
+    
     const sauceDiv = document.createElement('div');
     sauceDiv.classList.add('single-sauce-div');
 
     const sauceName = document.createElement('h2');
     sauceName.classList.add('sauce-name');
 
-    const user = getUser();
-    const userSauceIdentifier = `sauce${iterator}`;
+    
+    
     user[userSauceIdentifier] = currentSauce.name;
     setUser(user);
 
