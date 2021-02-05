@@ -25,6 +25,9 @@ p {
 }
 .info-box {
   font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 h1,
 h3 {
@@ -97,6 +100,8 @@ h2 {
 
 .what-ingredients-h2 {
   padding-top: 3%;
+  margin-left: 11%;
+  margin-right: 11%;
 }
 footer {
   display: flex;
