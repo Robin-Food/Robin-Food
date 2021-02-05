@@ -75,7 +75,7 @@ button:focus {
 
 #calendar-button {
     justify-content:right;
-    margin-top: 4%;
+    margin-top: 2%;
     font-size: 1.5rem;
     
 }
@@ -102,7 +102,7 @@ button:focus {
     border-radius: 2rem 0.5rem 2rem 0.5rem;
     position: absolute;
     left: 1%;
-    top: 7%;
+    top: 3%;
     background-color: rgba(223, 223, 223, 0.5);
     padding-top: 2%;
     padding-bottom: 5%;
@@ -185,14 +185,14 @@ font-weight: 550;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    height: 78%;
+    height: 83%;
     border: 3px solid  var(--green) ;
     border-radius: 2rem 0.5rem 2rem 0.5rem;
     overflow: scroll;
     min-width: 20%;
     max-width: 30%;
     position: absolute;
-    top: 9%;
+    top: 4%;
     left: 45.5%;
     margin: auto;
     background-color: rgba(223, 223, 223, 0.5);
@@ -228,7 +228,7 @@ font-weight: 550;
 }
 .tools-and-tips-div {
     text-align: left;
-    height: 78%;
+    height: 83%;
     min-width: 20%;
     max-width: 30%;
     overflow: scroll;
@@ -237,7 +237,7 @@ font-weight: 550;
     padding-bottom: 5%;
     position: absolute;
     left: 80%;
-    top: 9%;
+    top: 4%;
     border: 3px solid  var(--green) ;
     border-radius: 2rem 0.5rem 2rem 0.5rem;
     background-color: rgba(223, 223, 223, 0.5);
