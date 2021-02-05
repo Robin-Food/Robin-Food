@@ -51,15 +51,10 @@ export const excitingDescription = [
     `Rainbow`,
     `Fab`,
     `Sparkle`,
-    `"Kale Yeah!"`,
     `Increds`,
-    `"Fax Me!"`,
-    `"Flavor Party"`,
-    `Taste-a-rama`,
+    `"FlavorParty"`,
     `Nommz`,
-    `"D to the Lish"`,
     `Amaze`,
-    `"Page Me!"`,
 ];
 
 export const recipes = [
