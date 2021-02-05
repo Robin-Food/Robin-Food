@@ -108,6 +108,7 @@ button:focus {
     left: 1%;
     top: 13%;
     background-color: rgba(223, 223, 223, 0.5);
+    padding-top: 2%;
     padding-bottom: 5%;
 }
 
@@ -145,11 +146,13 @@ button:focus {
 .prep-time-span{
     margin: 3%;
     display: block;
+    font-weight: 550;
 }
 
 .oven-temp-span {
 margin: 3%;
 display: block;
+font-weight: 550;
 }
 
 .ingredient-name-div {
@@ -166,8 +169,8 @@ display: block;
 
 .name-el {
     margin-top: .5rem;
-    font-weight: 900;
-    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 1.9rem;
 }
 
 .name-el::first-letter {
@@ -185,17 +188,18 @@ display: block;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    height: 78%;
+    height: 73%;
     border: 3px solid  var(--green) ;
     border-radius: 2rem 0.5rem 2rem 0.5rem;
     overflow: scroll;
     min-width: 20%;
     max-width: 30%;
     position: absolute;
-    top: 19%;
+    top: 13%;
     left: 45%;
     margin: auto;
     background-color: rgba(223, 223, 223, 0.5);
+    padding-top: 2%;
     padding-bottom: 5%;
 }
 
@@ -221,7 +225,7 @@ display: block;
 }
 .batch-tips-div{
     margin: 1%;
-    padding: 3%;
+    padding-top: 1%;
 
 
 }
