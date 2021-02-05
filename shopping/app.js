@@ -1,5 +1,6 @@
 import { sauces } from '../data.js';
 import { getUser } from '../utils/local-storage-utils.js';
+import { findBySauceName } from './find-by-sauce-name.js';
 
 const user = getUser();
 const ingredientsList = [];
@@ -23,10 +24,3 @@ for (const ingredient of noRepeatsList) {
 
 listSection.append(listDiv);
 
-function findBySauceName(array, sauceName) {
-    for (let sauce of array) {
-        if (sauce.name === sauceName){
-            return sauce;
-        }
-    }
-}
