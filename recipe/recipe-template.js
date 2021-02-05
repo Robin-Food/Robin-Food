@@ -52,7 +52,7 @@ export const excitingDescription = [
     `Fab`,
     `Sparkle`,
     `Increds`,
-    `"FlavorParty"`,
+    `FlavorParty`,
     `Nommz`,
     `Amaze`,
 ];
@@ -96,12 +96,12 @@ export const recipes = [
     },
     {
         id: 5,
-        title: `Market Plate`,
+        title: `Plate`,
         image: `market-plate.png`,
         stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a splash of your ${sauce3}. Set aside for now.`,
         stepTwo: `Reheat your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately.`,
         stepThree: `Assemble your Market Plate by arranging each element neatly around a center of ${grainPrep} ${grain}.`,
-        stepFour: `Garnish your bowl with the ${rawVegPrep2} ${rawVeg} and some chopped ${herb3}. Sprinkle a little ${acid3} on top for some brightness.`
+        stepFour: `Garnish your plate with the ${rawVegPrep2} ${rawVeg} and some chopped ${herb3}. Sprinkle a little ${acid3} on top for some brightness.`
     },
     {
         id: 6,
@@ -114,12 +114,12 @@ export const recipes = [
     },
     {
         id: 7,
-        title: `Market Plate`,
+        title: `Plate`,
         image: `market-plate.png`,
         stepOne: `Toss a handful of ${rawVegPrep} ${rawVeg} with a sprinkle of salt, a splash of your ${sauce3}. Set aside for now.`,
         stepTwo: `Reheat your ${grainPrep} ${grain}, ${heartyVegPrep} ${heartyVeg}, ${lightVegPrep} ${lightVeg} and ${proteinPrep} ${protein} separately.`,
         stepThree: `Assemble your Market Plate by arranging each element neatly around a center of ${grainPrep} ${grain}.`,
-        stepFour: `Garnish your bowl with the ${rawVegPrep2} ${rawVeg} and some chopped ${herb3}. Sprinkle a little ${acid3} on top for some brightness.`
+        stepFour: `Garnish your plate with the ${rawVegPrep2} ${rawVeg} and some chopped ${herb3}. Sprinkle a little ${acid3} on top for some brightness.`
     },
     {
         id: 8,
