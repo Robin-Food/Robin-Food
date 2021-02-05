@@ -55,8 +55,9 @@ for (const recipe of recipes) {
             div.style.display = 'flex';
             recipeDiv.style.display = 'none';
             borderDiv.style.display = 'none';
-            hideButton.style.display = 'flex';
             iconMessage.style.display = 'flex';
+            hideButton.style.display = 'flex';
+            
         });
 
         recipeDiv.append(spacerDiv, borderDiv, renderedRecipe, returnToWeekButton);
