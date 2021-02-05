@@ -17,6 +17,7 @@ for (const recipe of recipes) {
 
     const menuIcon = document.createElement('img');
     const menuItem = document.createElement('p');
+    
 
     menuIcon.src = `../assets/icons/${recipe.image}`;
     menuIcon.alt = `${randomDescription} ${recipe.title}`;
@@ -28,11 +29,14 @@ for (const recipe of recipes) {
         const spacerDiv = document.createElement('div');
         const borderDiv = document.createElement('div');
         const returnToWeekButton = document.createElement('button');
+        const hideButton = document.getElementById('btn-new');
+        const iconMessage = document.getElementById('icon-message'); 
 
         renderedRecipe.append(renderRecipe(randomDescription, recipe));
         returnToWeekButton.textContent = '×';
         menuIcon.src = '../assets/icons/badge.png';
 
+        returnToWeekButton.id = 'x-btn';
         spacerDiv.id = 'spacer-div';
         borderDiv.id = 'border-div-recipe';
         
@@ -40,6 +44,10 @@ for (const recipe of recipes) {
         div.style.display = 'none';
         recipeDiv.style.display = 'flex';
         borderDiv.style.display = 'block';
+        hideButton.style.display = 'none';
+        iconMessage.style.display = 'none';
+
+
         
         returnToWeekButton.addEventListener('click', () => {
             recipeDiv.textContent = '';
@@ -47,6 +55,9 @@ for (const recipe of recipes) {
             div.style.display = 'flex';
             recipeDiv.style.display = 'none';
             borderDiv.style.display = 'none';
+            iconMessage.style.display = 'flex';
+            hideButton.style.display = 'flex';
+            
         });
 
         recipeDiv.append(spacerDiv, borderDiv, renderedRecipe, returnToWeekButton);
@@ -55,8 +66,11 @@ for (const recipe of recipes) {
     div.append(menuItem);
 }
 
+
+
 button.addEventListener('click', () => {
     // 'clear function here';
     location.reload();
     location.href = '../';
 });
+
