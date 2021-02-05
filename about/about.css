@@ -27,7 +27,7 @@ nav a {
 }
 
 .about-container {
-  width: 50%;
+  width: 80%;
   display: grid;
   grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
   margin: 0 auto;
@@ -35,7 +35,7 @@ nav a {
   border: 1px white solid;
   background-color: rgba(255, 255, 255, 0.6);
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 2rem .5rem 2rem .5rem;
   box-shadow: 1px 1px 5px grey;
 }
 .bio {
@@ -48,6 +48,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
 }
 .photo-div img {
   max-width: 100px;
@@ -76,8 +77,19 @@ h1 {
   color: var(--green);
 }
 h2 {
-  font-family: var(--mainfont);
-}
-h3 {
   text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.25rem;
+  }
+
+div>h2 {
+  text-align: left;
+}
+
+.bottom-buffer {
+  height: 20%;
 }
