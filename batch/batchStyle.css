@@ -79,8 +79,8 @@ button:focus {
 
 #calendar-button {
     position: absolute;
-    left: 84%;
-    top: 12%;
+    left: 80%;
+    top: 3%;
 }
 
 .shopping-list-button-div{
@@ -90,8 +90,8 @@ button:focus {
 
 #shopping-list-button{
     position: absolute;
-    left: 52%;
-    top: 12%;
+    left: 43%;
+    top: 3%;
 }
 
 #batch-recipe-container-div {
@@ -291,8 +291,10 @@ display: block;
     font-size: 1.3rem;
 }
 
-.title-div {
-margin-top: 100px;
+.message-div {
+margin-top: 60px;
+padding-top: 10px;
 background-color: darkgray;
-height: 20px;
+height: 55px;
+text-align: center;
 }
