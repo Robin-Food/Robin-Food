@@ -15,7 +15,8 @@ for (const ingredientType of batchData) {
     batchRecipeDiv.append(recipeEl);
 }
 
-for (let i = 0; i < 3; i++) {
+const MAGIC_NUMBER = 3; // give this a nice name for future devs
+for (let i = 0; i < MAGIC_NUMBER; i++) {
     const singleSauceDiv = generateSauce(sauces[i], i + 1);
     sauceDiv.append(singleSauceDiv);
 }

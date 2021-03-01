@@ -3,11 +3,12 @@ import ingredients from '../data.js';
 import { findBySauceName } from '../shopping/find-by-sauce-name.js';
 import { sauces } from '../data.js';
 
-const heartyVegCategory = ingredients[0].value;
-const lightVegCategory = ingredients[1].value;
-const starchCategory = ingredients[2].value;
-const proteinCategory = ingredients[3].value;
-
+const [
+    heartyVegCategory, 
+    lightVegCategory, 
+    starchCategory, 
+    proteinCategory,
+] = ingredients.map(item => item.value);
 const user = getUser();
 
 function getName(vegCategory, valueToPull) {
@@ -34,12 +35,14 @@ const rawVegPrep2 = 'pickled';
 const sauce1 = user.sauce1;
 const sauce2 = user.sauce2;
 const sauce3 = user.sauce3;
-const herb1 = findBySauceName(sauces[0], sauce1).herb;
-const herb2 = findBySauceName(sauces[1], sauce2).herb;
-const herb3 = findBySauceName(sauces[2], sauce3).herb;
-const acid1 = findBySauceName(sauces[0], sauce1).acid;
-const acid2 = findBySauceName(sauces[1], sauce2).acid;
-const acid3 = findBySauceName(sauces[2], sauce3).acid;
+
+const subSauces = [sauce1, sauce2, sauce3]; 
+
+const getPropsFromSauces = prop => sauces
+    .map((sauce, i) => findBySauceName(sauce, subSauces[i + 1])[prop]);
+
+const [herb1, herb2, herb3] = getPropsFromSauces('herb');
+const [acid1, acid2, acid3] = getPropsFromSauces('acid');
 // const oil = 'olive';
 const wrap = 'tortilla or wrap alternative';
 // const acid = user.acid;
@@ -47,6 +50,7 @@ const wrap = 'tortilla or wrap alternative';
 // const wrap = user.wrap;
 // const choppedHerb = user.herb;
 
+// haha love this!
 export const excitingDescription = [
     `Rainbow`,
     `Fab`,

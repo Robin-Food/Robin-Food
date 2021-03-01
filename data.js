@@ -6,6 +6,7 @@ export default [
             {
                 'id': 'kjl234908fw',
                 'name': 'Broccoli',
+                // seems like you could have injected the 425 and 16-20 into this using the temp/time properties later on to reduce repetition?
                 'preparation': 'Preheat oven to 425°F, toss cut broccoli with oil to coat and salt to taste, arrange florets in a single layer on a oiled or parchment lined backing sheet, roast for 16-20 minutes or until done.',
                 'prepShort': 'roasted',
                 'temp': '425°F',
