@@ -1,6 +1,7 @@
 
 
 // take in the one category of the sauce array
+// would usually like to see function names be verbs
 export function theSauces(sauceCategory) {
     // create the div to render to
     const div = document.createElement('div');

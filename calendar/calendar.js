@@ -13,6 +13,7 @@ const user = getUser();
 welcome.textContent = `Congratulations ${user.name}, you are now a Meal Prep Expert!`;
 
 for (const recipe of recipes) {
+    // the contents of this loop could probably have been refactored into a render function for readability
     const randomDescription = excitingDescription[Math.floor(Math.random() * excitingDescription.length)];
 
     const menuIcon = document.createElement('img');

@@ -5,10 +5,12 @@ import { findBySauceName } from './find-by-sauce-name.js';
 const user = getUser();
 const ingredientsList = [];
 
-for (let i = 0; i < 3; i++) {
+const SOME_CONST = 3; // just to have an opportunity to name this for future devs walking into this mystery number
+
+for (let i = 0; i < SOME_CONST; i++) {
     const sauceToLookFor = `sauce${i + 1}`;
-    const thisSauce = findBySauceName(sauces[i], user[sauceToLookFor]);
-    for (const ingredient of thisSauce.shopping) {
+    const { shopping } = findBySauceName(sauces[i], user[sauceToLookFor]);
+    for (const ingredient of shopping) {
         ingredientsList.push(ingredient);
     }
 }

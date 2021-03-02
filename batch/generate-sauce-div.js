@@ -12,11 +12,10 @@ export function generateSauce(sauceCategory, iterator) {
 
     let currentSauce;
     //if there is not a sauce currently in the category, use random choice, if there is, use choice currently in user obj
-    if (!user[userSauceIdentifier]) {
-        currentSauce = sauceCategory[randomChoice];
-    } else {
-        currentSauce = findBySauceName(sauceCategory, user[userSauceIdentifier]);
-    }
+    // nice dynamic property access here!
+    currentSauce = !user[userSauceIdentifier] 
+        ? sauceCategory[randomChoice] 
+        : findBySauceName(sauceCategory, user[userSauceIdentifier]);
     //create sauce div
     const sauceDiv = document.createElement('div');
     sauceDiv.classList.add('single-sauce-div');
@@ -54,9 +53,10 @@ export function generateSauce(sauceCategory, iterator) {
 
     sauceDiv.append(sauceName, sauceIngredients, saucePrep, changeSauce);
 
+    const MAGIC_NUMBER = 3; // again, would be nice to know where this number comes from, for future devs who inherit this code
     changeSauce.addEventListener('click', () => {
         randomChoice++;
-        if (randomChoice > 3) randomChoice = 0;
+        if (randomChoice > MAGIC_NUMBER) randomChoice = 0;
         currentSauce = sauceCategory[randomChoice];
         sauceName.textContent = currentSauce.name;
 
